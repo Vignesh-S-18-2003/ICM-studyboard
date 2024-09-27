@@ -488,6 +488,67 @@ border-radius: 30px;
   height: 200px;
 }
 
+.regimg{
+  padding-bottom: 10vh;
+  text-align: center;
+}
+.regimg img{
+  width: 70vw;
+  height: 80vh;
+}
+
+.exam-patern {
+  /* Dark grey background for the container */
+  padding: 20px;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 20px auto;
+  color: #fff; /* White text color for the content */
+}
+
+
+.exam-patern h1{
+  text-align: center;
+  color: black;
+}
+.exam-patern table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.exam-patern th, .exam-patern td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff; 
+  color: black;/* Slightly lighter border for separation */
+}
+
+.exam-patern th {
+  width: 30vw;
+  font-size: 25px;
+  height: 7vh;
+  background-color: #555; /* Medium grey for headers */
+  color: #f0f0f0; /* Light text color */
+  font-weight: bold;
+}
+
+.exam-patern td {
+  font-size: 25px;
+  width: 30vw;
+  height: 7vh;
+  background-color: #cacaca; /* Darker background for table cells */
+  color: #000000; /* Light grey text for readability */
+}
+
+.exam-patern tr:nth-child(even) td {
+  background-color: #ffffff; /* Lighter grey for even rows */
+}
+
+.exam-patern tr:hover {
+  background-color: #555; /* Slight hover effect with lighter grey */
+}
+
 @media (max-width: 575.98px) {
   .h2,
   h2 {

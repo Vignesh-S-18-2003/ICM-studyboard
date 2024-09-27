@@ -14,6 +14,10 @@ import Exampage from "@/pages/exampage";
 import BecameSellerPage from "@/pages/become-seller";
 import Examwhat from "@/components/examwhat/Examwhat";
 import OurBlog2 from "@/components/section/OurBlog2";
+import Registerimg from "@/components/registerimg/Registerimg";
+import Pattern from "@/components/pattern/Pattern";
+
+
 const metadata = {
   title: "Freeio - Freelance Marketplace ReactJs Template | Home 2",
 };
@@ -25,6 +29,8 @@ export default function HomePage2() {
       <Exampage/>
       <Examwhat/>
       <OurBlog2/>
+      <Registerimg />
+      <Pattern/>
       <Hero2 />
       <NeedSomething2 />
       <PopularService1 />
