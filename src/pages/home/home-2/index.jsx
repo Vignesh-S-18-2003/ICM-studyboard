@@ -16,6 +16,10 @@ import Examwhat from "@/components/examwhat/Examwhat";
 import OurBlog2 from "@/components/section/OurBlog2";
 import Registerimg from "@/components/registerimg/Registerimg";
 import Pattern from "@/components/pattern/Pattern";
+import Searchcomponent from "@/components/searchcomponent/searchcomponent";
+import OurFaq2 from "@/components/section/OurFaq2";
+import PopularServicex from "@/components/section/PopularServicex";
+import ContactPage from "@/pages/contact";
 
 
 const metadata = {
@@ -31,15 +35,11 @@ export default function HomePage2() {
       <OurBlog2/>
       <Registerimg />
       <Pattern/>
-      <Hero2 />
-      <NeedSomething2 />
-      <PopularService1 />
-      <CtaBanner2 />
-      <OurPartner1 />
-      <BrowserCategory2 />
-      <HighestRated1 />
-      <LearnFreeio1 />
-      <PriceTable1 />
+      <Searchcomponent/>
+      
+      <OurFaq2/>
+      <PopularServicex/>
+      <ContactPage/>
     </>
   );
 }

@@ -549,6 +549,19 @@ border-radius: 30px;
   background-color: #555; /* Slight hover effect with lighter grey */
 }
 
+.searchcomponent{
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 5vh 20px;
+}
+
+.searchcomponent button{
+  background-color: #f98724;
+  border: none;
+}
+
 @media (max-width: 575.98px) {
   .h2,
   h2 {
@@ -4455,7 +4468,7 @@ section {
 
 /* Custom Search Sugguestions Code Start */
 .advance-search-tab.at-home3 {
-  border: 1px solid #397e62;
+  border: 1px solid #f98724;
 }
 
 .advance-search-tab.at-home6 {
