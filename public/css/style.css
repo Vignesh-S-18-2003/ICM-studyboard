@@ -483,6 +483,10 @@ border-radius: 30px;
   text-align: center;
 } */
 
+.bloggcard-img{
+  width: 300px;
+  height: 200px;
+}
 
 @media (max-width: 575.98px) {
   .h2,

@@ -25,13 +25,12 @@ export default function BlogCard1({ data, isContentExpanded = false }) {
           }`}
         >
           <img
-            className="w-100 h-100 object-fit-cover"
+            className=" bloggcard-img"
             src={data.img}
             alt="thumbnail"
           />
         </div>
         <div className={`blog-content ${isContentExpanded ? "px-0" : ""}`}>
-          <a className="date">{data.date}</a>
           <h4 className="title mt-1">
             <Link to={`/blog-single/${data.id}`}>{data.title}</Link>
           </h4>

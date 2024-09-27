@@ -1,4 +1,4 @@
-import { blog1 } from "@/data/blog";
+import { blog2 } from "@/data/blog2";
 import BlogCard1 from "../card/BlogCard1";
 import { useLocation } from "react-router-dom";
 
@@ -33,9 +33,19 @@ export default function OurBlog2() {
               </div>
             )}
           </div>
-          <div className="row wow fadeInUp" data-wow-delay="300ms">
-            {blog1.slice(0, 4).map((item, i) => (
-              <div key={i} className="col-sm-6 col-xl-3">
+          <div className="row wow fadeInUp bloggcard" data-wow-delay="300ms">
+            {blog2.slice(0, 3).map((item, i) => (
+              <div key={i} className="col-sm-6 col-xl-4">
+                <BlogCard1
+                  data={item}
+                  isContentExpanded={pathname === "/home-6" ? true : false}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="row wow fadeInUp bloggcard" data-wow-delay="300ms">
+            {blog2.slice(3, 6).map((item, i) => (
+              <div key={i} className="col-sm-6 col-xl-4">
                 <BlogCard1
                   data={item}
                   isContentExpanded={pathname === "/home-6" ? true : false}
