@@ -448,6 +448,42 @@ font-size: 25px;
 border-radius: 30px;
 }
 
+.exam-what{
+  margin: auto;
+  padding: 5vh 20vw;
+}
+
+.exam-what h1{
+  font-size: 60px;
+}
+.exam-what h6{
+  font-size: 26px;
+  color: rgb(110, 110, 110);
+  width: 70vw;
+}
+
+/* .exam-what .exams-text{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+} */
+
+.exams-text div{
+  display: flex;
+}
+
+.exams-text img{
+  width: 120px;
+  margin-right: 20px;
+  height: 60px;
+}
+
+/* .exam-texts{
+  margin-top: 10vh;
+  text-align: center;
+} */
+
+
 @media (max-width: 575.98px) {
   .h2,
   h2 {
