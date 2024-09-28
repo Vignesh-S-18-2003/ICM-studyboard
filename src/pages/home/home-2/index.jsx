@@ -9,6 +9,19 @@ import PopularService1 from "@/components/section/PopularService1";
 import PriceTable1 from "@/components/section/PriceTable1";
 
 import MetaComponent from "@/components/common/MetaComponent";
+import NotFound from "@/pages/not_found";
+import Exampage from "@/pages/exampage";
+import BecameSellerPage from "@/pages/become-seller";
+import Examwhat from "@/components/examwhat/Examwhat";
+import OurBlog2 from "@/components/section/OurBlog2";
+import Registerimg from "@/components/registerimg/Registerimg";
+import Pattern from "@/components/pattern/Pattern";
+import Searchcomponent from "@/components/searchcomponent/searchcomponent";
+import OurFaq2 from "@/components/section/OurFaq2";
+import PopularServicex from "@/components/section/PopularServicex";
+import ContactPage from "@/pages/contact";
+
+
 const metadata = {
   title: "Freeio - Freelance Marketplace ReactJs Template | Home 2",
 };
@@ -17,15 +30,16 @@ export default function HomePage2() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Hero2 />
-      <NeedSomething2 />
-      <PopularService1 />
-      <CtaBanner2 />
-      <OurPartner1 />
-      <BrowserCategory2 />
-      <HighestRated1 />
-      <LearnFreeio1 />
-      <PriceTable1 />
+      <Exampage/>
+      <Examwhat/>
+      <OurBlog2/>
+      <Registerimg />
+      <Pattern/>
+      <Searchcomponent/>
+      
+      <OurFaq2/>
+      <PopularServicex/>
+      <ContactPage/>
     </>
   );
 }
