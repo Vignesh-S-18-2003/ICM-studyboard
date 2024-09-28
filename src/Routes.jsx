@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, RouterProvider } from "react-router-dom";
 import HomePage1 from "./pages/home";
 import HomePage2 from "./pages/home/home-2";
 import HomePage3 from "./pages/home/home-3";
@@ -95,6 +95,7 @@ import FaqPage from "./pages/faq";
 import HelpPage from "./pages/help";
 import InvoicePage from "./pages/invoices";
 import Landingpage from "./pages/ICM/Landingpage"
+import PostArrival from "./pages/ICM/PostArrivalpage";
 import PricingPage from "./pages/pricing";
 import RegisterPage from "./pages/auth/register";
 import TermsPage from "./pages/terms";
@@ -106,6 +107,7 @@ export default function RoutesComponent() {
       <Routes>
         <Route path="/">
           <Route path="Landingpage" element={<Landingpage />} />
+          <Route path="PostArrival" element={<PostArrival />} />
           <Route path="home-1" element={<HomePage1 />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />

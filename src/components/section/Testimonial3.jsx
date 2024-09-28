@@ -1,4 +1,5 @@
 import TestimonialCard1 from "../card/TestimonialCard1";
+import TestimonialCard2 from "../card/TestimonialCard2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,6 +12,9 @@ export default function Testimonial3() {
   useEffect(() => {
     setShowSwiper(true);
   }, []);
+
+  // Array of components to be rendered in each slide
+  const components = [<TestimonialCard1 />, <TestimonialCard2 />];
 
   return (
     <>
@@ -34,15 +38,11 @@ export default function Testimonial3() {
                     clickable: true,
                   }}
                 >
-                  {Array(2)
-                    .fill(2)
-                    .map((_, index) => (
-                      <SwiperSlide key={index}>
-                        <div className="item">
-                          <TestimonialCard1 />
-                        </div>
-                      </SwiperSlide>
-                    ))}
+                  {components.map((Component, index) => (
+                    <SwiperSlide key={index}>
+                      <div className="item">{Component}</div>
+                    </SwiperSlide>
+                  ))}
                 </Swiper>
               )}
               <div className="testimonial__3">

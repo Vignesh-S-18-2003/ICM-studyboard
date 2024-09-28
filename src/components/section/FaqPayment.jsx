@@ -2,7 +2,7 @@ export default function FaqPayment() {
   return (
     <>
       <div className="ui-content">
-        <h4 className="title">Payments</h4>
+        <h2 className="title">Frequently asked Questions ?</h2>
         <div className="accordion-style1 faq-page mb90">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item active">
@@ -15,7 +15,7 @@ export default function FaqPayment() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  What methods of payments are supported?
+                  How can I open a local bank account after arriving?
                 </button>
               </h2>
               <div
@@ -25,10 +25,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                  ultricies hendrerit. Eget a, sit morbi nunc sit id massa.
-                  Metus, scelerisque volutpat nec sit vel donec. Sagittis, id
-                  volutpat erat vel.
+                You can open a local bank account by visiting a nearby bank branch with your passport, visa, proof of address, and enrollment confirmation (if you're a student). Many banks also offer student-friendly accounts with minimal fees, so be sure to inquire about available options. Some banks may allow online applications, but a branch visit is often required to finalize the process.
                 </div>
               </div>
             </div>
@@ -42,7 +39,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Can I cancel at anytime?
+                  What should I do if I need medical assistance?
                 </button>
               </h2>
               <div
@@ -52,10 +49,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                  ultricies hendrerit. Eget a, sit morbi nunc sit id massa.
-                  Metus, scelerisque volutpat nec sit vel donec. Sagittis, id
-                  volutpat erat vel.
+                If you require medical assistance, first check your health insurance coverage and locate nearby hospitals or clinics. Many universities and institutions provide student health services, and you can access these for minor medical needs. In case of an emergency, dial the local emergency number or visit the nearest hospital. It's essential to keep a list of emergency contacts and healthcare providers handy.
                 </div>
               </div>
             </div>
@@ -69,7 +63,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  How do I get a receipt for my purchase?
+                  What should I do if I face issues with my accommodation?
                 </button>
               </h2>
               <div
@@ -79,10 +73,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                  ultricies hendrerit. Eget a, sit morbi nunc sit id massa.
-                  Metus, scelerisque volutpat nec sit vel donec. Sagittis, id
-                  volutpat erat vel.
+                If you encounter problems with your accommodation, such as maintenance issues, noise disturbances, or safety concerns, first contact your landlord or property manager to report the problem. Keep a record of all communications and any issues you’ve faced. If the problem isn’t resolved, check if your contract outlines a formal complaint process. For students, many universities offer housing support services that can provide advice or mediate with landlords. In severe cases, local housing authorities or legal aid may assist.
                 </div>
               </div>
             </div>
@@ -96,7 +87,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseFour"
                 >
-                  Which license do I need?
+                  Where can I get student discounts for transportation?
                 </button>
               </h2>
               <div
@@ -106,37 +97,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                  ultricies hendrerit. Eget a, sit morbi nunc sit id massa.
-                  Metus, scelerisque volutpat nec sit vel donec. Sagittis, id
-                  volutpat erat vel.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFive">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                  aria-expanded="false"
-                  aria-controls="collapseFive"
-                >
-                  How do I get access to a theme I purchased?
-                </button>
-              </h2>
-              <div
-                id="collapseFive"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingFive"
-                data-parent="#accordionExample"
-              >
-                <div className="accordion-body">
-                  Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                  ultricies hendrerit. Eget a, sit morbi nunc sit id massa.
-                  Metus, scelerisque volutpat nec sit vel donec. Sagittis, id
-                  volutpat erat vel.
+                You can often get student discounts for transportation by applying for a student travel card or pass. Many public transportation systems, such as buses, trains, and metros, offer discounted fares for students with valid student IDs. You can inquire at local transit offices, visit their websites, or check with your school’s student services for partnerships with transport providers. Some cities also offer regional travel cards that bundle multiple transportation modes at a reduced price for students.
                 </div>
               </div>
             </div>
