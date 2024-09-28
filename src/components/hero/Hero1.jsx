@@ -17,13 +17,6 @@ const role = [
 ];
 
 const popular = [
-  "Designer",
-  "Developer",
-  "Web",
-  "IOS",
-  "PHP",
-  "Senior",
-  "Engineer",
 ];
 
 const hero = ["/images/home/home-1.png", "/images/home/home-2.png"];
@@ -106,14 +99,14 @@ export default function Hero1() {
                   <h3 className="banner-text text-white ff-heading mb25 animate-up-3">
                   At International Campus Masters, we tailor courses, offer a warm welcome, and provide unwavering support to make your dreams real.
                   </h3>
-                  {/* <div className="advance-search-tab bgc-white bgct-sm p10 p0-md bdrs4 banner-btn position-relative zi9 animate-up-4">
+                  <div className="advance-search-tab bgc-white bgct-sm p10 p0-md bdrs4 banner-btn position-relative zi9 animate-up-4">
                     <div className="row">
-                      <div className="col-md-5 col-lg-6 col-xl-6">
+                      <div className="col-md-5 col-lg-6 col-xl-10">
                         <div className="advance-search-field mb10-sm bdrr1 bdrn-sm">
                           <HeroSearch1 />
                         </div>
                       </div>
-                      <div className="col-md-4 col-lg-4 col-xl-4 d-none d-md-block">
+                      {/* <div className="col-md-4 col-lg-4 col-xl-4 d-none d-md-block">
                         <div className="bselect-style1">
                           <div className="dropdown bootstrap-select">
                             <button
@@ -156,7 +149,7 @@ export default function Hero1() {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-md-3 col-lg-2 col-xl-2 ps-md-0">
                         <div className="text-center text-xl-end">
                           <button
@@ -169,11 +162,11 @@ export default function Hero1() {
                         </div>
                       </div>
                     </div>
-                  </div> */}
-                  {/* <div className="d-none d-md-flex mt30 banner-text animate-up-5">
-                    <p className="hero-text fz15 me-2 text-white mb-0">
+                  </div>
+                   <div className="d-none d-md-flex mt30 banner-text animate-up-5">
+                    {/* <p className="hero-text fz15 me-2 text-white mb-0">
                       Popular Searches
-                    </p>
+                    </p> */}
                     {popular.map((elm, i) => (
                       <a
                         key={i}
@@ -183,7 +176,7 @@ export default function Hero1() {
                         {`${elm}${i != popular.length - 1 ? "," : " "}`}
                       </a>
                     ))}
-                  </div> */}
+                  </div> 
                   <Link to="/contact" className="ud-btn btn-thm2">
                   Get Started <i className="fal fa-arrow-right-long" />
                 </Link>

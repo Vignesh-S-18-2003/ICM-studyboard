@@ -7,7 +7,7 @@ export default function NeedSomething1() {
         <div className="container wow fadeInUp">
           <div className="row">
             <div className="col-lg-12">
-              <div className="main-title text-center">
+              <div className="main-title text-center pb90">
                 <h2>Our assistance towards your journey</h2>
                 
               </div>

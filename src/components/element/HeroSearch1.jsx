@@ -35,9 +35,9 @@ export default function HeroSearch1() {
             type="text"
             name="search"
             placeholder="What are you looking for?"
-            onFocus={focusDropdown}
-            onBlur={blurDropdown}
-            value={getSelectedResult}
+            // onFocus={focusDropdown}
+            // onBlur={blurDropdown}
+            // value={getSelectedResult}
             onChange={(e) => setSelectedResult(e.target.value)}
           />
           <div

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Accordion1 from "../ui-elements/Accordion1";
-import faq1 from "../../../ICM-studyboard/src/components/ui-elements/faq1";
+// import Accordion1 from "../ui-elements/Accordion1";
+// import faq1 from "../../../ICM-studyboard/src/components/ui-elements/faq1";
 import Alert1 from "../ui-elements/Alert1";
 import Buttons1 from "../ui-elements/Buttons1";
 import Tab1 from "../ui-elements/Tab1";
