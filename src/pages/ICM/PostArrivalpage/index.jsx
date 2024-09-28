@@ -6,7 +6,8 @@ import MetaComponent from "@/components/common/MetaComponent";
 import Testimonial3 from "@/components/section/Testimonial3";
 import FaqPayment from "@/components/section/FaqPayment";
 import ContactInfo1 from '@/components/section/ContactInfo1';
-import Book from '../../../../ICM-studyboard/src/components/section/book'; // Ensure the import is correct
+import Hero1 from '@/components/hero/Hero1';
+// import Book from '../../../../ICM-studyboard/src/components/section/book'; // Ensure the import is correct
 
 const metadata = {
     title: "Post Arrival",
@@ -17,8 +18,8 @@ function PostArrival() {
         <>
             <MetaComponent meta={metadata} />
             <Header17 />
+            <PostArrival/>
             <div className="body_content">
-                <Hero21 />
                 <Hero14 />
                 <Testimonial3 />
                 <div className="row wow fadeInUp" data-wow-delay="300ms">
@@ -28,7 +29,7 @@ function PostArrival() {
                 </div>
             </div>
             
-            <Book /> {/* Corrected component name */}
+            {/* <Book /> Corrected component name */}
         </>
     );
 }
