@@ -48,12 +48,12 @@ adjust to their new living environment. <br className="d-none d-lg-block" />
                   <div>
                     <img
                       className="img-1 spin-right"
-                      src="/images/about/element-13.png"
-                      alt=" image "
+                      src="/images/about/element-13.png" 
+                      alt=" image " 
                     />
                     <img
                       className="mb10 wow fadeInLeft"
-                      src="/images/about/about-14.png"
+                      src="ICM-studyboard\public\images\home\happy-hipster-young-woman-carry-backpack-travel-tourist-woman-with-backpack-outdoors-holidays-women-lifestyle-concept.jpg" width="240" height="438"
                       alt=" image "
                     />
                     <div
@@ -69,13 +69,13 @@ adjust to their new living environment. <br className="d-none d-lg-block" />
                             <div className="timer">58</div>
                           </li>
                           <li>
-                            <span>M</span>
+                            <span></span>
                           </li>
                           <li>
                             <span>+</span>
                           </li>
                         </ul>
-                        <p className="text mb-0">Active Freelancer</p>
+                        <p className="text mb-0">Partner Universities</p>
                       </div>
                     </div>
                   </div>
@@ -85,22 +85,22 @@ adjust to their new living environment. <br className="d-none d-lg-block" />
                       <div className="details">
                         <ul className="ps-0 mb-0 d-flex justify-content-start">
                           <li>
-                            <span>+</span>
+                            <span></span>
                           </li>
                           <li>
-                            <div className="timer">12</div>
+                            <div className="timer">24/ </div>
                           </li>
                           <li>
-                            <span>M</span>
+                            <span>7 </span>
                           </li>
                         </ul>
-                        <p className="text mb-0">Project Completed</p>
+                        <p className="text mb-0">Support</p>
                       </div>
                     </div>
                     <img
                       style={{ height: "fit-content" }}
                       className="wow fadeInRight"
-                      src="/images/about/about-15.png"
+                      src="ICM-studyboard\public\images\home\young-joyful-woman-with-coffee-go-walking-sunny-cold-day-big-city-pretty-woman-wearing-warm-winter-wollen-sweater-modern-sunglasses-speaking-phone-trvelling-with-camera-bag-happy.jpg" width="240" height="368"
                       alt=" image "
                     />
                   </div>

@@ -5,7 +5,8 @@ import Hero14 from "@/components/hero/Hero14";
 import MetaComponent from "@/components/common/MetaComponent";
 import Testimonial3 from "@/components/section/Testimonial3";
 import FaqPayment from "@/components/section/FaqPayment";
-import FaqSuggestion from "@/components/section/FaqSuggestion"; // Ensure this is imported
+import ContactInfo1 from '@/components/section/ContactInfo1';
+import Book from '../../../../ICM-studyboard/src/components/section/book'; // Ensure the import is correct
 
 const metadata = {
     title: "Post Arrival",
@@ -26,6 +27,8 @@ function PostArrival() {
                     </div>
                 </div>
             </div>
+            
+            <Book /> {/* Corrected component name */}
         </>
     );
 }

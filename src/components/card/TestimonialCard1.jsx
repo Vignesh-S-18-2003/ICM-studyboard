@@ -5,8 +5,8 @@ export default function TestimonialCard1() {
         <div className="col-lg-5 col-xl-4">
           <div className="testimonial-style4-img position-relative">
             <img
-              className="bdrs4 w-100 h-auto"
-              src="/images/about/about-8.jpg"
+              
+              src="ICM-studyboard\public\images\home\confident-black-haired-young-man-pointing-himself.jpg" width="448" height="520"
               alt="testimonial"
             />
           </div>

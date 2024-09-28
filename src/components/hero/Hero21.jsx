@@ -71,7 +71,7 @@ export default function Hero21() {
                       {hero.map((item, index) => (
                         <SwiperSlide key={index}>
                           <img
-                            src={item}
+                            src="ICM-studyboard\public\images\home\woman-searching-place-with-compass.jpg"
                             className="ui-hero-slide__img"
                             alt="Hero Banner"
                           />
@@ -97,7 +97,7 @@ export default function Hero21() {
             <div className="row">
               <div className="col-xl-10 col-xxl-7">
                 <div className="position-relative">
-                  <h1 className="banner-title animate-up-2">
+                  <h1 className="banner-title animate-up-2" >
                   Post Arrival Support{" "}
                   </h1>
                   <h3 className="banner-text text-white ff-heading mb25 animate-up-3">
