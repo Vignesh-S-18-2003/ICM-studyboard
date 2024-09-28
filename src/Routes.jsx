@@ -94,6 +94,7 @@ import NotFound from "./pages/not_found";
 import FaqPage from "./pages/faq";
 import HelpPage from "./pages/help";
 import InvoicePage from "./pages/invoices";
+import Landingpage from "./pages/ICM/Landingpage"
 import PricingPage from "./pages/pricing";
 import RegisterPage from "./pages/auth/register";
 import TermsPage from "./pages/terms";
@@ -104,7 +105,7 @@ export default function RoutesComponent() {
     <>
       <Routes>
         <Route path="/">
-          <Route index element={<HomePage1 />} />
+          <Route path="Landingpage" element={<Landingpage />} />
           <Route path="home-1" element={<HomePage1 />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />

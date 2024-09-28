@@ -37,14 +37,13 @@ export default function Hero2() {
             <div className="col-xl-7">
               <div className="pr30 pr0-lg mb30-md position-relative">
                 <h1 className="animate-up-1 mb25 text-white">
-                  Find the perfect freelance{" "}
+                  Unlock your door to your {" "}
                   <br className="d-none d-xl-block" />
-                  services for your business
+                  Study Abroad dreams with ICM
                 </h1>
                 <p className="text-white animate-up-2">
-                  Work with talented people at the most affordable price to get
-                  the most <br className="d-none d-lg-block" /> out of your time
-                  and cost
+                At International Campus Masters, we tailor courses, offer a warm
+                welcome, <br className="d-none d-lg-block" /> and provide unwavering support to make your dreams real.
                 </p>
                 <div className="advance-search-tab bgc-white p10 bdrs4-sm bdrs60 banner-btn position-relative zi1 animate-up-3 mt30">
                   <div className="row">
@@ -183,27 +182,6 @@ export default function Hero2() {
                 alt="hero"
                 className="animate-up-1 main-img-home2"
               />
-              <div className="home2-hero-content position-relative">
-                <div className="iconbox-small1 d-none d-xl-flex wow fadeInRight default-box-shadow4 bounce-x animate-up-1">
-                  <span className="icon flaticon-review" />
-                  <div className="details pl20">
-                    <h6 className="mb-1">Proof of quality</h6>
-                    <p className="text fz13 mb-0">Lorem Ipsum Dolar Amet</p>
-                  </div>
-                </div>
-                <div className="iconbox-small2 d-none d-xl-flex wow fadeInLeft default-box-shadow4 bounce-y animate-up-2">
-                  <span className="icon flaticon-review" />
-                  <div className="details pl20">
-                    <h6 className="mb-1">Safe and secure</h6>
-                    <p className="text fz13 mb-0">Lorem Ipsum Dolar Amet</p>
-                  </div>
-                </div>
-                <img
-                  src="/images/about/happy-client.png"
-                  alt="happy-client"
-                  className="bounce-x bdrs16 img-1 default-box-shadow4"
-                />
-              </div>
             </div>
           </div>
         </div>
