@@ -51,11 +51,11 @@ adjust to their new living environment. <br className="d-none d-lg-block" />
                       src="/images/about/element-13.png" 
                       alt=" image " 
                     />
-                    <img
+                    {/* <img
                       className="mb10 wow fadeInLeft"
-                      src="ICM-studyboard\public\images\home\happy-hipster-young-woman-carry-backpack-travel-tourist-woman-with-backpack-outdoors-holidays-women-lifestyle-concept.jpg" width="240" height="438"
+                      src="ICM-studyboard\public\images\home\.jpg" width="240" height="438"
                       alt=" image "
-                    />
+                    /> */}
                     <div
                       style={{
                         background: "#f7f7f7",
@@ -97,12 +97,12 @@ adjust to their new living environment. <br className="d-none d-lg-block" />
                         <p className="text mb-0">Support</p>
                       </div>
                     </div>
-                    <img
+                    {/* <img
                       style={{ height: "fit-content" }}
                       className="wow fadeInRight"
                       src="ICM-studyboard\public\images\home\young-joyful-woman-with-coffee-go-walking-sunny-cold-day-big-city-pretty-woman-wearing-warm-winter-wollen-sweater-modern-sunglasses-speaking-phone-trvelling-with-camera-bag-happy.jpg" width="240" height="368"
                       alt=" image "
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

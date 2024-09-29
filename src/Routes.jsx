@@ -95,19 +95,19 @@ import FaqPage from "./pages/faq";
 import HelpPage from "./pages/help";
 import InvoicePage from "./pages/invoices";
 import Landingpage from "./pages/ICM/Landingpage"
-import PostArrival from "./pages/ICM/PostArrivalpage";
 import PricingPage from "./pages/pricing";
 import RegisterPage from "./pages/auth/register";
 import TermsPage from "./pages/terms";
 import UIElementsPage from "./pages/ui-elements";
+import PostArrival from "./pages/ICM/Postarrivalpage";
 
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
-          <Route path="Landingpage" element={<Landingpage />} />
-          <Route path="PostArrival" element={<PostArrival />} />
+          <Route path="landingpage" element={<Landingpage />} />
+          <Route path="postarrival" element={<PostArrival />} />
           <Route path="home-1" element={<HomePage1 />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />

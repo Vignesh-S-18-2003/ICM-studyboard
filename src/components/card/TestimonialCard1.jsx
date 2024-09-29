@@ -1,4 +1,8 @@
+import React from 'react'
+import testimonalimg from '../../../public/images/postarrivalpage/testimonal.png';
+
 export default function TestimonialCard1() {
+
   return (
     <>
       <div className="row align-items-center">
@@ -6,7 +10,7 @@ export default function TestimonialCard1() {
           <div className="testimonial-style4-img position-relative">
             <img
               
-              src="ICM-studyboard\public\images\home\confident-black-haired-young-man-pointing-himself.jpg" width="448" height="520"
+              src={testimonalimg} width="448" height="520"
               alt="testimonial"
             />
           </div>
