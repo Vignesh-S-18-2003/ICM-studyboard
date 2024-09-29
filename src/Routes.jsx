@@ -100,6 +100,7 @@ import RegisterPage from "./pages/auth/register";
 import TermsPage from "./pages/terms";
 import UIElementsPage from "./pages/ui-elements";
 import PostArrival from "./pages/ICM/Postarrivalpage";
+import Examieltspage from "./pages/ICM/Exampageielts";
 
 export default function RoutesComponent() {
   return (
@@ -108,6 +109,7 @@ export default function RoutesComponent() {
         <Route path="/">
           <Route path="landingpage" element={<Landingpage />} />
           <Route path="postarrival" element={<PostArrival />} />
+          <Route path="examielts" element={<Examieltspage />} />
           <Route path="home-1" element={<HomePage1 />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />

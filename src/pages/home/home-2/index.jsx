@@ -9,8 +9,6 @@ import PopularService1 from "@/components/section/PopularService1";
 import PriceTable1 from "@/components/section/PriceTable1";
 
 import MetaComponent from "@/components/common/MetaComponent";
-import NotFound from "@/pages/not_found";
-import Exampage from "@/pages/exampage";
 import BecameSellerPage from "@/pages/become-seller";
 import Examwhat from "@/components/examwhat/Examwhat";
 import OurBlog2 from "@/components/section/OurBlog2";
@@ -30,13 +28,11 @@ export default function HomePage2() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Exampage/>
-      <Examwhat/>
+            <Examwhat/>
       <OurBlog2/>
       <Registerimg />
       <Pattern/>
       <Searchcomponent/>
-      
       <OurFaq2/>
       <PopularServicex/>
       <ContactPage/>

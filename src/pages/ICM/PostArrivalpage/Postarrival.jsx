@@ -87,7 +87,7 @@ export default function PostArrivalHero() {
         <div className="home1-banner-content">
           <div className="container">
             <div className="row  ">
-              <div className="col-xl-10 col-xxl-9">
+              <div className="col-xxl-12">
               <div className="position-relative pt200 pr0 mr0">
                   <h1 className="banner-title animate-up-2 " >
                   Post Arrival Support{" "}
