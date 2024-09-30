@@ -56,6 +56,11 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
 /* Mixins */
 /* Variables */
 
+.banner-title {
+  font-weight: 900; /* Extra bold */
+}
+
+
 .accordion-number {
   display: inline-block; /* To allow padding and background */
   border-radius: 50%; /* Makes the number round */

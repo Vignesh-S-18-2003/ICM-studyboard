@@ -23,7 +23,7 @@ export default function section1() {
                   <h2 className="title" style={{ color: 'orange' }}>
   Expand Your Skills, Knowledge, {" "}
   <br className="d-none d-xl-block" /> and Future Prospects
-</h2>
+</h2> 
 
                     <p></p>
                   </div>
@@ -66,7 +66,7 @@ export default function section1() {
   className="cta-banner3-img wow fadeInLeft object-fit-cover"
   src="public/images/StudyAbroadstep/sa2.png"
   alt="cta banner 3"
-  style={{ height: '670px' }} // Adjust the height here
+  style={{ height: '880px' }} // Adjust the height here
   data-wow-delay="300ms"
 />
 

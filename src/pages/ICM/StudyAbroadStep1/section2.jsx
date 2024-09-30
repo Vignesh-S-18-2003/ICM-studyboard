@@ -9,7 +9,7 @@ export default function Section2() {
             <div className="col-lg-6">
               <img
                 className="h-100 w-100 mb30-md object-fit-contain"
-                src="public\images\StudyAbroadstep\sa3.jpg"
+                src="public\images\StudyAbroadstep\sa3.png"
                 alt="about"
               />
             </div>
