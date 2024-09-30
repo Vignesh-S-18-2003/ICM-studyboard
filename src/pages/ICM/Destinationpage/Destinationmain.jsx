@@ -23,17 +23,7 @@ export default function DestinationMain() {
             >
               <div className="error_page_content text-center text-xl-start">
                 <div className="erro_code">
-                <h1>Australia</h1>267[=]- =/7
-                p9-.
-                =<picture>
-                    <source media="(
-                    
-                    0
-                \]
-                
-                ' srcset="" />
-                    <img src="" alt="" />
-                </picture>               {/* <span className="text-thm">TS</span> */}
+                <h1>Australia</h1>   {/* <span className="text-thm">TS</span> */}
                 </div>
                 <div className="h2 error_title">
                 Explore and Experience World-Class Education!
