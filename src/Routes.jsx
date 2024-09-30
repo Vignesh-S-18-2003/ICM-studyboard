@@ -99,7 +99,9 @@ import PricingPage from "./pages/pricing";
 import RegisterPage from "./pages/auth/register";
 import TermsPage from "./pages/terms";
 import UIElementsPage from "./pages/ui-elements";
-import PostArrival from "./pages/ICM/Postarrivalpage";
+import PostArrival from "./pages/ICM/PostArrivalpage";
+import StudyAbroad from "./pages/ICM/StudyAbroadStep1";
+import VisaImmigration from "./pages/ICM/VisaImmigration";
 import Examieltspage from "./pages/ICM/Exampageielts";
 import Destination from "./pages/ICM/Destinationpage";
 import Destinationpage from "./pages/ICM/Destinationpage";
@@ -109,6 +111,8 @@ export default function RoutesComponent() {
     <>
       <Routes>
         <Route path="/">
+        <Route path="VisaImmigration" element={<VisaImmigration />} />
+        <Route path="StudyAbroadStep1" element={<StudyAbroad />} />
           <Route path="landingpage" element={<Landingpage />} />
           <Route path="postarrival" element={<PostArrival />} />
           <Route path="examielts" element={<Examieltspage />} />

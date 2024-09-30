@@ -92,7 +92,7 @@ export default function PostArrivalHero() {
                   <h1 className="banner-title animate-up-2 " >
                   Post Arrival Support{" "}
                   </h1>
-                  <h3 className="banner-text text-white ff-heading mb25 mr25 animate-up-3 p15 bg-dark">
+                  <h3 className="banner-text text-white ff-heading mb25 mr25 animate-up-3 p15">
                   Everything you need to get settled and succeed in your new country
                   </h3>
                   <h5 className="banner-text text-white ff-heading mb25 animate-up-3">

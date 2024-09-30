@@ -55,6 +55,25 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
 /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap"); */
 /* Mixins */
 /* Variables */
+
+.banner-title {
+  font-weight: 900; /* Extra bold */
+}
+
+
+.accordion-number {
+  display: inline-block; /* To allow padding and background */
+  border-radius: 50%; /* Makes the number round */
+  background-color: orange; /* Orange background */
+  color: white; /* Text color for contrast */
+  width: 30px; /* Fixed width */
+  height: 30px; /* Fixed height */
+  text-align: center; /* Center the number */
+  line-height: 30px; /* Vertically center the text */
+  font-weight: bold; /* Make the number bold */
+  margin-right: 10px; /* Space between the number and text */
+}
+
 :root {
   /* --title-font-family: "DM Sans", sans-serif;
   --body-font-family: "DM Sans", sans-serif; */
