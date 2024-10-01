@@ -6,6 +6,7 @@ import Destinationabout1 from './Destinationabout1';
 import Ieltsblog from './ieltsblog';
 import DestinationStudy from './Destinationstudy';
 import CtaBanner18 from './CtaBanner18';
+import EducationalLoanTypes from './Educationloan';
 function EducationalLoan() {
     return (
       <div>
@@ -14,7 +15,7 @@ function EducationalLoan() {
         <Destinationabout />
         <Destinationabout1 />
         <Ieltsblog />
-        <DestinationStudy />
+        <EducationalLoanTypes/>
         <br /><br />
         <CtaBanner18/>
         </div>
