@@ -103,8 +103,8 @@ import StudyAbroad from "./pages/ICM/StudyAbroadStep1";
 import VisaImmigration from "./pages/ICM/VisaImmigration";
 import Examieltspage from "./pages/ICM/Exampageielts";
 import Destinationpage from "./pages/ICM/Destinationpage";
-import PostArrival from "./pages/ICM/PostArrivalpage";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
+import PostArrival from "./pages/ICM/Postarrivalpage";
 
 export default function RoutesComponent() {
   return (

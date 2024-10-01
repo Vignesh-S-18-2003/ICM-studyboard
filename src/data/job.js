@@ -2,7 +2,7 @@ export const job1 = [
   {
     id: 1,
     img: "/images/team/client-2.png",
-    title: "Website Designer Required For Directory Theme",
+    title: "John Doe",
     server: "Mailchimp",
     benefits: ["$125k-$135k Hourly", "1-5 Days", "Expensive", "Remote"],
     category: "UX Designer",
@@ -14,7 +14,7 @@ export const job1 = [
   {
     id: 2,
     img: "/images/team/client-1.png",
-    title: "Website Designer Required For Directory Theme",
+    title: "John Doe",
     server: "Mailchimp",
     benefits: ["$125k-$135k Hourly", "1-5 Days", "Expensive", "Remote"],
     category: "Web Developers",
@@ -26,7 +26,7 @@ export const job1 = [
   {
     id: 3,
     img: "/images/team/client-3.png",
-    title: "Website Designer Required For Directory Theme",
+    title: "John Doe",
     server: "Mailchimp",
     benefits: ["$125k-$135k Hourly", "1-5 Days", "Expensive", "Remote"],
     category: "Illustrators",
@@ -38,12 +38,12 @@ export const job1 = [
   {
     id: 4,
     img: "/images/team/client-4.png",
-    title: "Website Designer Required For Directory Theme",
+    title: "John Doe",
     server: "Mailchimp",
     benefits: ["$125k-$135k Hourly", "1-5 Days", "Expensive", "Remote"],
     category: "Node.js",
     salary: 50000,
-    jobType: "Internship",
+    jobType: "“Lorem ipsum dolor sit amet consectetur. Placerat vestibulum adipiscing urna nec ultrices id mattis orci est. Dolor venenatis varius pellentesque tristique pulvinar quisque risus id” ",
     level: "new",
     sort: "best-seller",
   },

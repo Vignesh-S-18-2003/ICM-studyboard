@@ -581,6 +581,10 @@ border-radius: 30px;
   border: none;
 }
 
+.partner_item img{
+  width: 100px;
+  height: 60px;
+}
 
 @media (max-width: 575.98px) {
   .h2,

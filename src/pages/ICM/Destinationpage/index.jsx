@@ -9,6 +9,8 @@ import DestinationFaqs from './Destinationfaq'
 import DestinationSearch from './DestinationSearch'
 import DestinationServices from './Destinationervices'
 import ContactPage from '@/pages/contact'
+import DestinationSponsors from './DestinationSponsors'
+import DestinationAlumni from './DestinationAlumni'
 
 function Destinationpage() {
   return (
@@ -19,8 +21,10 @@ function Destinationpage() {
       <DestinationStudy/>
       <DestinationService />
       <DestinationGallery/>
-      <DestinationFaqs/>
       <DestinationSearch/>
+      <DestinationSponsors/>
+      <DestinationAlumni/>
+      <DestinationFaqs/>
       <DestinationServices/>
       <ContactPage/>
     </div>

@@ -151,7 +151,7 @@ export default function DestinationStudy() {
             <div className="col-lg-5 col-xl-6 position-relative wow zoomIn d-none d-xl-block">
               <div className="cta-img-home8">
                 <img
-                  className="w-75 h-auto" // Changed to w-75 for smaller size
+                  className="w-100 h-auto" // Changed to w-75 for smaller size
                   src="/images/EducationalLoan/e6.png"
                   alt="Non Collateral Based Education Loan"
                 />
