@@ -103,13 +103,15 @@ import StudyAbroad from "./pages/ICM/StudyAbroadStep1";
 import VisaImmigration from "./pages/ICM/VisaImmigration";
 import Examieltspage from "./pages/ICM/Exampageielts";
 import Destinationpage from "./pages/ICM/Destinationpage";
-import PostArrival from "./pages/ICM/Postarrivalpage";
+import PostArrival from "./pages/ICM/PostArrivalpage";
+import EducationalLoan from "./pages/ICM/Eduacationalloan";
 
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="Educationalloan" element={<EducationalLoan />} />
         <Route path="VisaImmigration" element={<VisaImmigration />} />
         <Route path="StudyAbroadStep1" element={<StudyAbroad />} />
           <Route path="landingpage" element={<Landingpage />} />

@@ -100,30 +100,30 @@ export const browserCategory = [
 export const learnFreeio1 = [
   {
     id: 1,
-    title: "Great Work",
+    title: "Transformative Journey",
     description:
-      "“I found the course material to be highly engaging, and the instructors to be helpful and communicative.”",
-    avatar: "/images/testimonials/testimonial-1.png",
-    name: "Courtney Henry",
-    skill: "Web Designer",
+      "“Studying abroad transformed my life. The exceptional support from coordinators made the transition smooth and enjoyable.”",
+    avatar: "/images/Visa/v4.jpg",
+    name: "Sophia Carter",
+    skill: "International Relations Student",
   },
   {
     id: 2,
-    title: "Great Work",
+    title: "Seamless Experience Abroad",
     description:
-      "“I found the course material to be highly engaging, and the instructors to be helpful and communicative.”",
-    avatar: "/images/testimonials/testimonial-2.png",
-    name: "Courtney Henry",
-    skill: "Web Designer",
+      "“The cultural exposure I gained from studying abroad was invaluable. I made lifelong friends and gained insights that will benefit my career.”",
+    avatar: "/images/Visa/v5.jpg",
+    name: "Liam Davis",
+    skill: "Computer Science Major",
   },
   {
     id: 3,
-    title: "Great Work",
+    title: "Exceptional Support",
     description:
-      "“I found the course material to be highly engaging, and the instructors to be helpful and communicative.”",
-    avatar: "/images/testimonials/testimonial-3.png",
-    name: "Courtney Henry",
-    skill: "Web Designer",
+      "“I found the study abroad program to be well-organized. The courses were relevant, and I loved the opportunity to learn in an international setting.”",
+    avatar: "/images/Visa/v6.jpg",
+    name: "Olivia Wilson",
+    skill: "Business Administration Student",
   },
 ];
 
