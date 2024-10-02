@@ -6,6 +6,12 @@ import Destinationabout1 from './Destinationabout1';
 import Ieltsblog from './ieltsblog';
 import DestinationStudy from './Destinationstudy';
 import CtaBanner18 from './CtaBanner18';
+import Testimonial1 from './Testimonial1';
+import Testimonial2 from './Testimonial2';
+import CtaBanner11 from './CtaBanner11';
+import OurPartner1 from './OurPartner1';
+import LearnFreeio17 from './LearnFreeio17';
+import FaqPayment from './FaqPayment';
 function EducationalLoan() {
     return (
       <div>
@@ -17,6 +23,17 @@ function EducationalLoan() {
         <DestinationStudy />
         <br /><br />
         <CtaBanner18/>
+        <Testimonial1 />
+        <Testimonial2 />
+        <CtaBanner11/>
+        <OurPartner1 />
+        <LearnFreeio17 />
+        <br />
+        <div className="row wow fadeInUp" data-wow-delay="300ms">
+                    <div className="col-lg-8 mx-auto">
+                        <FaqPayment />
+                    </div>
+                </div>
         </div>
 
 )

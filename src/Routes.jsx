@@ -104,7 +104,7 @@ import VisaImmigration from "./pages/ICM/VisaImmigration";
 import Examieltspage from "./pages/ICM/Exampageielts";
 import Destinationpage from "./pages/ICM/Destinationpage";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
-import PostArrival from "./pages/ICM/Postarrivalpage";
+import PostArrival from "./pages/ICM/PostArrivalpage";
 
 export default function RoutesComponent() {
   return (

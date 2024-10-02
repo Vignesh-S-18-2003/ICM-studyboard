@@ -127,6 +127,38 @@ export const learnFreeio1 = [
   },
 ];
 
+export const learnFreeio2 = [
+  {
+    id: 1,
+    title: "A Life-Changing Opportunity",
+    description:
+      "“Thanks to the affordable educational loan, I was able to pursue my dream of studying abroad. The support I received made the application process incredibly seamless and efficient”",
+    avatar: "/images/Visa/v4.jpg",
+    name: "Sophia Carter",
+    skill: "International Relations Student",
+  },
+  {
+    id: 2,
+    title: "Quick Approval Process",
+    description:
+      "“The loan application was straightforward, and I received approval much faster than I expected. This allowed me to focus on my studies instead of worrying about finances.”",
+    avatar: "/images/Visa/v5.jpg",
+    name: "Liam Davis",
+    skill: "Computer Science Major",
+  },
+  {
+    id: 3,
+    title: "Supportive Guidance",
+    description:
+      "“The team helped me gather all the necessary documents for my educational loan. Their expertise made the process easy, and I felt confident every step of the way.”",
+    avatar: "/images/Visa/v6.jpg",
+    name: "Olivia Wilson",
+    skill: "Business Administration Student",
+  },
+];
+
+
+
 export const price1 = [
   {
     id: 1,
