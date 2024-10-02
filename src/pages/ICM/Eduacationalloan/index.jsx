@@ -12,6 +12,8 @@ import CtaBanner11 from './CtaBanner11';
 import OurPartner1 from './OurPartner1';
 import LearnFreeio17 from './LearnFreeio17';
 import FaqPayment from './FaqPayment';
+import ContactPage from '@/pages/contact'
+
 function EducationalLoan() {
     return (
       <div>
@@ -34,7 +36,9 @@ function EducationalLoan() {
                         <FaqPayment />
                     </div>
                 </div>
+                <ContactPage/>
         </div>
+        
 
 )
 }
