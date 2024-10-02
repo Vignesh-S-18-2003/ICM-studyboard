@@ -15,7 +15,7 @@ export default function LoanProcess() {
                 Follow the steps below to start your loan process.
               </p>
               <Link
-                to="/register"
+                to="/contact"
                 className="ud-btn btn-thm4 bdrs12"
                 style={{
                   color: "white",

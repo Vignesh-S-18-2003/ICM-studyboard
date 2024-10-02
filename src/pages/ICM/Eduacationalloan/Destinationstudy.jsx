@@ -1,3 +1,32 @@
+import React from 'react';
+
+// Reusable Button Component
+const ActionButton = ({ onClick, children }) => (
+  <button
+    style={{
+      backgroundColor: '#FFA500',
+      color: 'white',
+      border: 'none',
+      padding: '10px 20px',
+      borderRadius: '5px',
+      cursor: 'pointer',
+      transition: 'background-color 0.3s, transform 0.3s',
+    }}
+    onMouseEnter={(e) => {
+      e.target.style.backgroundColor = '#FF8C00';
+      e.target.style.transform = 'scale(1.05)';
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.backgroundColor = '#FFA500';
+      e.target.style.transform = 'scale(1)';
+    }}
+    className="mb-1"
+    onClick={onClick}
+  >
+    <h6 className="app-title mb-0 fz15">{children}</h6>
+  </button>
+);
+
 export default function DestinationStudy() {
   return (
     <>
@@ -14,9 +43,9 @@ export default function DestinationStudy() {
             <div className="col-lg-5 col-xl-6 position-relative wow zoomIn d-none d-xl-block">
               <div className="cta-img-home8">
                 <img
-                  className="w-75 h-auto" // Changed to w-75 for smaller size
+                  className="w-75 h-auto"
                   src="/images/EducationalLoan/e5.png"
-                  alt="Collateral Based Education Loan"
+                  alt="Image depicting a Collateral Based Education Loan"
                 />
               </div>
             </div>
@@ -29,52 +58,9 @@ export default function DestinationStudy() {
                 <div className="app-widget at-home6">
                   <div className="row d-flex align-items-center">
                     <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Explore More</h6>
-                      </button>
-                    </div>
-                    <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Get Started</h6>
-                      </button>
+                      <ActionButton onClick={() => console.log('Get Started')}>
+                        Get Started
+                      </ActionButton>
                     </div>
                   </div>
                 </div>
@@ -97,52 +83,9 @@ export default function DestinationStudy() {
                 <div className="app-widget at-home6">
                   <div className="row d-flex align-items-center">
                     <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Explore More</h6>
-                      </button>
-                    </div>
-                    <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Get Started</h6>
-                      </button>
+                      <ActionButton onClick={() => console.log('Get Started')}>
+                        Get Started
+                      </ActionButton>
                     </div>
                   </div>
                 </div>
@@ -151,9 +94,9 @@ export default function DestinationStudy() {
             <div className="col-lg-5 col-xl-6 position-relative wow zoomIn d-none d-xl-block">
               <div className="cta-img-home8">
                 <img
-                  className="w-100 h-auto" // Changed to w-75 for smaller size
+                  className="w-100 h-auto"
                   src="/images/EducationalLoan/e6.png"
-                  alt="Non Collateral Based Education Loan"
+                  alt="Image depicting a Non Collateral Based Education Loan"
                 />
               </div>
             </div>
@@ -168,9 +111,9 @@ export default function DestinationStudy() {
             <div className="col-lg-5 col-xl-6 position-relative wow zoomIn d-none d-xl-block">
               <div className="cta-img-home8">
                 <img
-                  className="w-75 h-auto" // Changed to w-75 for smaller size
+                  className="w-75 h-auto"
                   src="/images/EducationalLoan/e7.png"
-                  alt="Non Co-signor Based Education Loan"
+                  alt="Image depicting a Non Co-signor Based Education Loan"
                 />
               </div>
             </div>
@@ -183,52 +126,9 @@ export default function DestinationStudy() {
                 <div className="app-widget at-home6">
                   <div className="row d-flex align-items-center">
                     <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Explore More</h6>
-                      </button>
-                    </div>
-                    <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Get Started</h6>
-                      </button>
+                      <ActionButton onClick={() => console.log('Get Started')}>
+                        Get Started
+                      </ActionButton>
                     </div>
                   </div>
                 </div>
@@ -251,52 +151,9 @@ export default function DestinationStudy() {
                 <div className="app-widget at-home6">
                   <div className="row d-flex align-items-center">
                     <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Explore More</h6>
-                      </button>
-                    </div>
-                    <div className="col-auto">
-                      <button
-                        style={{
-                          backgroundColor: '#FFA500', // Orange background color
-                          color: 'white',
-                          border: 'none',
-                          padding: '10px 20px',
-                          borderRadius: '5px',
-                          cursor: 'pointer',
-                          transition: 'background-color 0.3s, transform 0.3s',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#FF8C00'; // Darker orange on hover
-                          e.target.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
-                        }}
-                        onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = '#FFA500'; // Original orange color
-                          e.target.style.transform = 'scale(1)'; // Reset size
-                        }}
-                        className="mb-1"
-                      >
-                        <h6 className="app-title mb-0 fz15">Get Started</h6>
-                      </button>
+                      <ActionButton onClick={() => console.log('Get Started')}>
+                        Get Started
+                      </ActionButton>
                     </div>
                   </div>
                 </div>
@@ -305,9 +162,9 @@ export default function DestinationStudy() {
             <div className="col-lg-5 col-xl-6 position-relative wow zoomIn d-none d-xl-block">
               <div className="cta-img-home8">
                 <img
-                  className="w-75 h-auto" // Changed to w-75 for smaller size
+                  className="w-75 h-auto"
                   src="/images/EducationalLoan/e8.png"
-                  alt="Foreign Banks Based Education Loans"
+                  alt="Image depicting Foreign Banks Based Education Loans"
                 />
               </div>
             </div>

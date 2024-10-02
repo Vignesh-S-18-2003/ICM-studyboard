@@ -3,7 +3,7 @@ import Header17 from '@/components/header/Header17';
 import Hero11 from './Hero11';
 import Destinationabout from './Destinationabout';
 import Destinationabout1 from './Destinationabout1';
-import Ieltsblog from './ieltsblog';
+import Elblog from './elblog';
 import DestinationStudy from './Destinationstudy';
 import CtaBanner18 from './CtaBanner18';
 import Testimonial1 from './Testimonial1';
@@ -21,7 +21,7 @@ function EducationalLoan() {
         <Hero11 />
         <Destinationabout />
         <Destinationabout1 />
-        <Ieltsblog />
+        <Elblog />
         <DestinationStudy />
         <br /><br />
         <CtaBanner18/>

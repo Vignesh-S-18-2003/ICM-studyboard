@@ -1,9 +1,9 @@
 import BlogCard1 from "@/components/card/BlogCard1";
-import { blog2 } from "./blog2";
+import { blog3 } from "@/data/blog3";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-export default function Ieltsblog() {
+export default function Elblog() {
   const { pathname } = useLocation();
 
   return (
@@ -35,7 +35,7 @@ export default function Ieltsblog() {
 
           {/* Single Row with 3 Blog Cards */}
           <div className="row wow fadeInUp bloggcard" data-wow-delay="300ms">
-            {blog2.slice(0, 3).map((item, i) => (
+            {blog3.slice(0, 3).map((item, i) => (
               <div key={i} className="col-sm-6 col-xl-4">
                 <BlogCard1
                   data={item}
