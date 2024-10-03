@@ -109,12 +109,16 @@ import Scholarship from "./pages/ICM/Scholarship";
 import UniversitySelection from "./pages/ICM/UniversitySelection";
 import Education from "./components/dashboard/section/Education";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
+<<<<<<< HEAD
 import USA from "./pages/ICM/USA";
 import Canada from "./pages/ICM/Canada";
 import UK from "./pages/ICM/UK";
 import NewZealand from "./pages/ICM/NewZealand";
 import Ireland from "./pages/ICM/Ireland";
 import Dubai from "./pages/ICM/Dubai";
+=======
+import ScholarshipAustralia from "./pages/ICM/ScholarshipAustralia";
+>>>>>>> 60b22c88355553a8c9051a06b52cafabb4da66e5
 export default function RoutesComponent() {
   return (
     <>
@@ -129,11 +133,12 @@ export default function RoutesComponent() {
         <Route path="UniversitySelection" element={<UniversitySelection />} />
         <Route path="EducationalLoan" element={<EducationalLoan/>}/>
         <Route path="TestPreparation" element={<TestPreparation />} />
-        <Route path="Scholarship" element={<Scholarship />} />\
+        <Route path="Scholarship" element={<Scholarship />} />
+        <Route path="ScholarshipAustralia" element={<ScholarshipAustralia />} />
         <Route path="VisaImmigration" element={<VisaImmigration />} />
         <Route path="StudyAbroadStep1" element={<StudyAbroad />} />
           <Route path="landingpage" element={<Landingpage />} />
-          <Route path="postarrival" element={<PostArrival />} />
+          <Route path="postArrival" element={<PostArrival />} />
           <Route path="examielts" element={<Examieltspage />} />
           <Route path="destination" element={<Destinationpage />} />
           <Route path="home-1" element={<HomePage1 />} />
