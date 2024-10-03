@@ -12,12 +12,12 @@ const partners = [
   export default function DestinationSponsors() {
     return (
       <>
-        <section className="our-partners bgc-thm2 pt70 pb40 cta-home5-style ml30 ml0-lg">
+        <section className="our-partners bgc-thm4 pt70 pb40 cta-home5-style ml0 ml0-lg">
           <div className="container">
             <div className="row wow fadeInUp">
               <div className="col-lg-12">
                 <div className="main-title text-center">
-                  <h2 className="text-white">Partnered Universites</h2>
+                  <h2 className="text-dark">Partnered Universites</h2>
                 </div>
               </div>
             </div>

@@ -23,10 +23,8 @@ function EducationalLoan() {
         <Hero11 />
         <Destinationabout />
         <Destinationabout1 />
-        <Ieltsblog />
-        <EducationalLoanTypes/>
         <Elblog />
-        <DestinationStudy />
+        <EducationalLoanTypes/>
         <br /><br />
         <CtaBanner18/>
         <Testimonial1 />
