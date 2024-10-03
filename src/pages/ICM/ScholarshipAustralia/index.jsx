@@ -8,6 +8,8 @@ import ContactPage from '@/pages/contact'
 import ScholarshipDialer from './ScholarshipDialer'
 import ScholarshipAlumni from './ScholarshipAlumni'
 import SAustraliaCourse from './SAustraliaCourse'
+import ScholarshipStudy from './ScholarshipStudy'
+import ScholarshipUniversities from './ScholarshipUniversities'
 
 function ScholarshipAustralia() {
   return (
@@ -17,6 +19,8 @@ function ScholarshipAustralia() {
       <ScholarshipSearch/>
       <ScholarshipAlumni/>
       <SAustraliaCourse/>
+      <ScholarshipStudy/>
+      <ScholarshipUniversities/>
       <ScholarshipDialer/>
       <ScholarshipFaqs/>
       <ScholarshipArticles/>
