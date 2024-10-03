@@ -4,6 +4,8 @@ import Heros from './heros';
 import PopularCourse from './PopularCourse';
 import PopularCourse1 from './PopularCourse1';
 import BrowserCategory12 from './BrowserCategory12';
+import LearnFreeio1 from './LearnFreeio1';
+import ContactPage from '@/pages/contact'
 
 function UniversitySelection() {
     return (
@@ -14,6 +16,8 @@ function UniversitySelection() {
     <PopularCourse/>
     <PopularCourse1/>
     <BrowserCategory12/>
+    <LearnFreeio1/>
+    <ContactPage/>
 
 
 </div>

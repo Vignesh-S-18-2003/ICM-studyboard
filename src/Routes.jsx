@@ -104,7 +104,7 @@ import VisaImmigration from "./pages/ICM/VisaImmigration";
 import Examieltspage from "./pages/ICM/Exampageielts";
 import Destinationpage from "./pages/ICM/Destinationpage";
 import TestPreparation from "./pages/ICM/TestPreparation";
-import PostArrival from "./pages/ICM/Postarrivalpage";
+import PostArrival from "./pages/ICM/PostArrivalpage";
 import Scholarship from "./pages/ICM/Scholarship";
 import UniversitySelection from "./pages/ICM/UniversitySelection";
 import Education from "./components/dashboard/section/Education";
