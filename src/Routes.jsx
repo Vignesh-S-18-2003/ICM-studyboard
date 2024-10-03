@@ -106,12 +106,14 @@ import Destinationpage from "./pages/ICM/Destinationpage";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
 import PostArrival from "./pages/ICM/PostArrivalpage";
 import TestPreparation from "./pages/ICM/TestPreparation";
+import UniversitySelection from "./pages/ICM/UniversitySelection";
 
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="UniversitySelection" element={<UniversitySelection />} />
         <Route path="TestPreparation" element={<TestPreparation />} />
         <Route path="Educationalloan" element={<EducationalLoan />} />
         <Route path="VisaImmigration" element={<VisaImmigration />} />
