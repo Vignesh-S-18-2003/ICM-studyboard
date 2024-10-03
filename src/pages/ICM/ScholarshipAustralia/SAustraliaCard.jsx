@@ -1,63 +1,48 @@
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function SAustraliaCard({ data, itemClass }) {
-  const { pathname } = useLocation();
-
+export default function SAustraliaCard({ data }) {
   return (
     <>
-      <div
-        className={`${
-          itemClass
-            ? itemClass
-            : " col-4 freelancer-style1 text-center bdr1 hover-box-shadow mb60"
-        } ${pathname !== "/home-10" ? "at-home7 bdrs4" : ""}`}
-      >
+      <div className="freelancer-style1 text-center bdr1 hover-box-shadow mb60 bdrs16">
         <div className="thumb w90 mb25 mx-auto position-relative rounded-circle">
-          {/* <img
-            className="rounded-circle mx-auto object-fit-cover"
-            src={data.img}
-            alt="avatar"
-          /> */}
+          
           <span className="online" />
         </div>
         <div className="details">
           <h5 className="title mb-1">{data.name}</h5>
           <p className="mb-0">{data.skill}</p>
+          <div className="review">
           
+         
           <hr className="opacity-100 mt20 mb15" />
-          <div className="fl-meta  align-items-center justify-content-start">
+          <div className="fl-meta  align-items-center justify-content-between">
             <a className="meta fw500 text-start">
-              Location: 
+              Location :
               <span className="fz14 fw400"> Australia</span>
-            </a>
-            
-            <br />
+            </a><br />
             <a className="meta fw500 text-start">
-              Education
+              Education :
               <span className="fz14 fw400"> {data.location}</span>
-            </a>
-            <br />
+            </a><br />
             <a className="meta fw500 text-start">
-              Students
-              
+              Students :
               <span className="fz14 fw400"> {data.rating}</span>
-            </a>
-            <br />
+            </a><br />
           </div>
-          <div className=" mt15">
+          <div className="d-grid mt15">
             <Link
               to={`/freelancer-single/${data.id}`}
-              className="ud-btn btn-white2 double-border bdrs4"
+              className="ud-btn btn-white2 double-border bdrs60"
             >
-              View and Aplly
+              View and Apply
               <i className="fal fa-arrow-right-long" />
             </Link>
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }

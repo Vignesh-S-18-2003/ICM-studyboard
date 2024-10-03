@@ -10,6 +10,7 @@ import ScholarshipArticles from './ScholarshipArticle'
 import ScholarshipSponsors from './ScholarshipSponsors'
 import ScholarshipTestimonial from './ScholarshipTestimonal'
 import ScholarshipCourse from './ScholarshipCourse'
+import ScholarshipTable from '../ScholarshipAustralia/ScholarshipTable'
 
 function Scholarship() {
   return (

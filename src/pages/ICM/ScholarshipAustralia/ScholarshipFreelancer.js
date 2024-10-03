@@ -23,7 +23,7 @@ export const Scholarshipfreelancer = [
       rating: "20,00,000",
       reviews: 423,
       tags: ["Illustrator", "Photoshop", "InDesign"],
-      skill: "Cranfield University",
+      skill: "University of Melbourne",
       price: 20000,
       location: "Post Graduate",
       level: "lavel-1",
