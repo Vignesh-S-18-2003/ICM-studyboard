@@ -9,6 +9,7 @@ import ContactPage from '@/pages/contact'
 import ScholarshipArticles from './ScholarshipArticle'
 import ScholarshipSponsors from './ScholarshipSponsors'
 import ScholarshipTestimonial from './ScholarshipTestimonal'
+import ScholarshipCourse from './ScholarshipCourse'
 
 function Scholarship() {
   return (
@@ -16,6 +17,7 @@ function Scholarship() {
       <Header17/>
       <ScholarshipMain/>
       <ScholarshipSearch/>
+      <ScholarshipCourse/>
       <ScholarshipService/>
       <ScholarshipResource/>
       <ScholarshipTypes/>

@@ -109,6 +109,7 @@ import Scholarship from "./pages/ICM/Scholarship";
 import UniversitySelection from "./pages/ICM/UniversitySelection";
 import Education from "./components/dashboard/section/Education";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
+import ScholarshipAustralia from "./pages/ICM/ScholarshipAustralia";
 export default function RoutesComponent() {
   return (
     <>
@@ -118,6 +119,7 @@ export default function RoutesComponent() {
         <Route path="EducationalLoan" element={<EducationalLoan/>}/>
         <Route path="TestPreparation" element={<TestPreparation />} />
         <Route path="Scholarship" element={<Scholarship />} />
+        <Route path="ScholarshipAustralia" element={<ScholarshipAustralia />} />
         <Route path="VisaImmigration" element={<VisaImmigration />} />
         <Route path="StudyAbroadStep1" element={<StudyAbroad />} />
           <Route path="landingpage" element={<Landingpage />} />

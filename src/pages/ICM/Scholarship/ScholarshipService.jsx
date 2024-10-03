@@ -26,7 +26,7 @@ export default function ScholarshipService() {
           >
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">By Study Destinations</h2>
+                <h2 className="title pt90">By Study Destinations</h2>
                 {/* <p className="paragraph">
                   Aliquam lacinia diam quis lacus euismod
                 </p> */}
