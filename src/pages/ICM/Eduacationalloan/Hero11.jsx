@@ -21,7 +21,7 @@ export default function Hero11() {
             </div>
             <div className="d-flex align-items-center mt30 animate-up-4">
   <Link
-    to="/job-1"
+    to="/contact"
     className="ud-btn me-3 bdrs12"
     style={{ backgroundColor: "orange", color: "white" }}
   ><i className="fas fa-plane" style={{ marginLeft: "8px" }}></i>
