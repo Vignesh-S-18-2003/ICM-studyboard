@@ -109,11 +109,23 @@ import Scholarship from "./pages/ICM/Scholarship";
 import UniversitySelection from "./pages/ICM/UniversitySelection";
 import Education from "./components/dashboard/section/Education";
 import EducationalLoan from "./pages/ICM/Eduacationalloan";
+import USA from "./pages/ICM/USA";
+import Canada from "./pages/ICM/Canada";
+import UK from "./pages/ICM/UK";
+import NewZealand from "./pages/ICM/NewZealand";
+import Ireland from "./pages/ICM/Ireland";
+import Dubai from "./pages/ICM/Dubai";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="Dubai" element={<Dubai />} />
+        <Route path="Ireland" element={<Ireland />} />
+        <Route path="NewZealand" element={<NewZealand />} />
+        <Route path="UK" element={<UK />} />
+        <Route path="Canada" element={<Canada />} />
+        <Route path="USA" element={<USA />} />
         <Route path="UniversitySelection" element={<UniversitySelection />} />
         <Route path="EducationalLoan" element={<EducationalLoan/>}/>
         <Route path="TestPreparation" element={<TestPreparation />} />
