@@ -43,4 +43,5 @@ function EducationalLoan() {
 )
 }
 
-export default EducationalLoan
+export default EducationalLoan;
+
