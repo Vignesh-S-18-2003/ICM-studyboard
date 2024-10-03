@@ -8,7 +8,7 @@ import { Pagination, Navigation } from "swiper";
 import { useEffect, useState } from "react";
 import JobCard2 from "@/components/card/JobCard2";
 
-export default function ScholarshipAlumni() {
+export default function SimcardTestimonals() {
   const [showSwiper, setShowSwiper] = useState(false);
   useEffect(() => {
     setShowSwiper(true);

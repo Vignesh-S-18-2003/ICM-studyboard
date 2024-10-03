@@ -3892,13 +3892,12 @@ border-radius: 30px;
   position: relative;
 }
 .home17-hero-content .btn-1 {
-  background-color: #3f5d56;
-  color: #97fcc4;
+  background-color: #ce6400;
+  color: white;
 }
 .home17-hero-content .btn-2 {
-  background-color: #97fcc4;
-  border: 1px solid #e9e9e9;
-  color: #222222;
+  background-color: #a24400;
+  color: #ffffff;
 }
 
 .home17-hero-img {

@@ -24,7 +24,7 @@ export default function SAustralia() {
                 </Link>
                 <Link
                   to="/freelancer-1"
-                  className="ud-btn btn-2 bdr1 bdrs120 btn-2"
+                  className="ud-btn btn-2 bdr1 bdrs120"
                 >
                   Find Talent
                 </Link>

@@ -18,11 +18,11 @@ function ScholarshipAustralia() {
         <Header17/>
       <SAustralia/>
       <ScholarshipSearch/>
-      <ScholarshipAlumni/>
       <SAustraliaCourse/>
       <ScholarshipStudy/>
       <ScholarshipUniversities/>
       <ScholarshipTable/>
+      <ScholarshipAlumni/>
       <ScholarshipDialer/>
       <ScholarshipFaqs/>
       <ScholarshipArticles/>

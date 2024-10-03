@@ -116,6 +116,8 @@ import NewZealand from "./pages/ICM/NewZealand";
 import Ireland from "./pages/ICM/Ireland";
 import Dubai from "./pages/ICM/Dubai";
 import ScholarshipAustralia from "./pages/ICM/ScholarshipAustralia";
+import Simcard from "./pages/ICM/Simcard";
+import Forex from "./pages/ICM/Forex";
 export default function RoutesComponent() {
   return (
     <>
@@ -138,6 +140,8 @@ export default function RoutesComponent() {
           <Route path="postArrival" element={<PostArrival />} />
           <Route path="examielts" element={<Examieltspage />} />
           <Route path="destination" element={<Destinationpage />} />
+          <Route path="simcard" element={<Simcard />} />
+          <Route path="forex" element={<Forex />} />
           <Route path="home-1" element={<HomePage1 />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />
