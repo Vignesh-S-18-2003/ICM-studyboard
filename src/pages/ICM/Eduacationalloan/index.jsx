@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header17 from '@/components/header/Header17';
 import Hero11 from './Hero11';
@@ -6,6 +7,7 @@ import Destinationabout1 from './Destinationabout1';
 import Elblog from './elblog';
 import DestinationStudy from './Destinationstudy';
 import CtaBanner18 from './CtaBanner18';
+import EducationalLoanTypes from './Educationloan';
 import Testimonial1 from './Testimonial1';
 import Testimonial2 from './Testimonial2';
 import CtaBanner11 from './CtaBanner11';
@@ -13,7 +15,7 @@ import OurPartner1 from './OurPartner1';
 import LearnFreeio17 from './LearnFreeio17';
 import FaqPayment from './FaqPayment';
 import ContactPage from '@/pages/contact'
-
+import Ieltsblog from '../Exampageielts/ieltsblog';
 function EducationalLoan() {
     return (
       <div>
@@ -21,6 +23,8 @@ function EducationalLoan() {
         <Hero11 />
         <Destinationabout />
         <Destinationabout1 />
+        <Ieltsblog />
+        <EducationalLoanTypes/>
         <Elblog />
         <DestinationStudy />
         <br /><br />
