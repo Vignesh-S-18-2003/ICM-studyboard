@@ -117,11 +117,11 @@ export default function RoutesComponent() {
         <Route path="UniversitySelection" element={<UniversitySelection />} />
         <Route path="EducationalLoan" element={<EducationalLoan/>}/>
         <Route path="TestPreparation" element={<TestPreparation />} />
-        <Route path="Scholarship" element={<Scholarship />} />\
+        <Route path="Scholarship" element={<Scholarship />} />
         <Route path="VisaImmigration" element={<VisaImmigration />} />
         <Route path="StudyAbroadStep1" element={<StudyAbroad />} />
           <Route path="landingpage" element={<Landingpage />} />
-          <Route path="postarrival" element={<PostArrival />} />
+          <Route path="postArrival" element={<PostArrival />} />
           <Route path="examielts" element={<Examieltspage />} />
           <Route path="destination" element={<Destinationpage />} />
           <Route path="home-1" element={<HomePage1 />} />
