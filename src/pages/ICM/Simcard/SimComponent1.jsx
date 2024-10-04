@@ -8,7 +8,7 @@ const SimComponent1 = () => {
         {/* Left Side - Image */}
         <div className="col-md-6 text-center">
           <img
-            src="/images/simcard-image.jpg" // Replace with your image path
+            src="/images/simCard/image1.png" // Replace with your image path
             alt="SIM Card"
             className="img-fluid rounded"
           />

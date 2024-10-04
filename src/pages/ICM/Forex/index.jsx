@@ -6,6 +6,8 @@ import ForexBlog from './ForexBlog'
 import ForexDialer from './ForexDialer'
 import ContactPage from '@/pages/contact'
 import ForexTestimonals from './ForexTestimonals'
+import ForexBenefitsList1 from './ForexBenefits1'
+import ForexBenefitsList2 from './ForexBenefits2'
 
 function Forex() {
   return (
@@ -14,6 +16,8 @@ function Forex() {
       <ForexMain/>
       <ForexAbout/>
       <ForexBlog/>
+      <ForexBenefitsList1/>
+      <ForexBenefitsList2/>
       <ForexTestimonals/>
       <ForexDialer/>
       <ContactPage/>
