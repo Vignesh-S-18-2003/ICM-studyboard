@@ -118,11 +118,17 @@ import Dubai from "./pages/ICM/Dubai";
 import ScholarshipAustralia from "./pages/ICM/ScholarshipAustralia";
 import Simcard from "./pages/ICM/Simcard";
 import Forex from "./pages/ICM/Forex";
+import StudyAbroad2 from "./pages/ICM/StudyAbroadStep2";
+import PredepartureSupport from "./pages/ICM/PredepartureSupport";
+import StudyAbroad3 from "./pages/ICM/StudyAbroadStep3";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="StudyAbroad3" element={<StudyAbroad3 />} />
+        <Route path="StudyAbroad2" element={<StudyAbroad2 />} />
+        <Route path="PredepartureSupport" element={<PredepartureSupport />} />
         <Route path="Dubai" element={<Dubai />} />
         <Route path="Ireland" element={<Ireland />} />
         <Route path="NewZealand" element={<NewZealand />} />

@@ -157,6 +157,36 @@ export const learnFreeio2 = [
   },
 ];
 
+export const learnFreeio3 = [
+  {
+    id: 1,
+    title: "Comprehensive Pre-Departure Checklist",
+    description:
+      "“The pre-departure support provided me with a detailed checklist that ensured I had everything in place before moving abroad. From visa to packing essentials, it was all covered.”",
+    avatar: "/images/Visa/v4.jpg",
+    name: "Sophia Carter",
+    skill: "International Relations Student",
+  },
+  {
+    id: 2,
+    title: "Seamless Travel and Visa Guidance",
+    description:
+      "“The guidance I received for travel arrangements and visa documentation was incredibly helpful. It took away the stress of planning and allowed me to focus on my upcoming journey.”",
+    avatar: "/images/Visa/v5.jpg",
+    name: "Liam Davis",
+    skill: "Computer Science Major",
+  },
+  {
+    id: 3,
+    title: "Cultural and Health Orientation",
+    description:
+      "“The support team provided excellent tips on cultural adjustment and health safety. I felt well-prepared to integrate into a new environment, knowing I had covered all aspects of my move.”",
+    avatar: "/images/Visa/v6.jpg",
+    name: "Olivia Wilson",
+    skill: "Business Administration Student",
+  },
+];
+
 
 
 export const price1 = [

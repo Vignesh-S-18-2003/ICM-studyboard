@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 
-export default function section1() {
+export default function Section1() {
   const { pathname } = useLocation();
 
   return (
@@ -20,12 +20,14 @@ export default function section1() {
               <div className="col-xl-5 wow fadeInRight" data-wow-delay="300ms">
                 <div className="mb30">
                   <div className="main-title">
-                  <h2 className="title" style={{ color: 'orange' }}>
-  Expand Your Skills, Knowledge, {" "}
-  <br className="d-none d-xl-block" /> and Future Prospects
-</h2> 
-<p className="mt-3">
-                      Studying abroad is a life-changing experience that offers world-class education, global exposure, and valuable skills to enhance your career. Take the leap and explore new opportunities from an international perspective!
+                    <h2 className="title" style={{ color: 'orange' }}>
+                      Broaden Your Horizons, Expertise, <br className="d-none d-xl-block" /> and Career Opportunities
+                    </h2>
+
+                    <p className="mt-3">
+                      ICM guides students in choosing the ideal time and destination for their study abroad journey. 
+                      It covers factors like academic fit, cost of living, and cultural preferences while offering personalized recommendations and key deadlines. 
+                      This helps students make informed decisions tailored to their goals and timelines.
                     </p>
                   </div>
                 </div>
@@ -35,8 +37,7 @@ export default function section1() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">World-Class Education</h4>
                       <p className="text mb-0 fz15">
-                      Gain access to top-tier academic institutions and programs that  <br className="d-none d-lg-block" />{" "}
-                      enhance your learning experience.
+                        Gain access to top-tier academic institutions and programs that <br className="d-none d-lg-block" /> enhance your learning experience.
                       </p>
                     </div>
                   </div>
@@ -45,7 +46,7 @@ export default function section1() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">Global Exposure</h4>
                       <p className="text mb-0 fz15">
-                      Immerse yourself in diverse cultures and environments, broadening  <br className="d-none d-lg-block" /> your worldview and fostering international connections.
+                        Immerse yourself in diverse cultures and environments, broadening <br className="d-none d-lg-block" /> your worldview and fostering international connections.
                       </p>
                     </div>
                   </div>
@@ -54,8 +55,7 @@ export default function section1() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">Valuable Skills for Career Enhancement</h4>
                       <p className="text mb-0 fz15">
-                      Develop essential skills and competencies that boost your employability 
-                      and prepare you for a global job market.
+                        Develop essential skills and competencies that boost your employability and prepare you for a global job market.
                       </p>
                     </div>
                   </div>
@@ -64,13 +64,12 @@ export default function section1() {
             </div>
           </div>
           <img
-  className="cta-banner3-img wow fadeInLeft object-fit-cover"
-  src="public/images/StudyAbroadstep/sa2.png"
-  alt="cta banner 3"
-  style={{ height: '880px' }} // Adjust the height here
-  data-wow-delay="300ms"
-/>
-
+            className="cta-banner3-img wow fadeInLeft object-fit-cover"
+            src="public/images/StudyAbroadstep2/sa2.png"
+            alt="cta banner 3"
+            style={{ height: '880px' }} // Adjust the height here
+            data-wow-delay="300ms"
+          />
         </div>
       </section>
     </>
