@@ -121,11 +121,14 @@ import Forex from "./pages/ICM/Forex";
 import StudyAbroad2 from "./pages/ICM/StudyAbroadStep2";
 import PredepartureSupport from "./pages/ICM/PredepartureSupport";
 import StudyAbroad3 from "./pages/ICM/StudyAbroadStep3";
+import AdmissionAssistance from "./pages/ICM/AdmissionAssistance";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        
+        <Route path="admissionassistance" element={<AdmissionAssistance />} />
         <Route path="StudyAbroad3" element={<StudyAbroad3 />} />
         <Route path="StudyAbroad2" element={<StudyAbroad2 />} />
         <Route path="PredepartureSupport" element={<PredepartureSupport />} />
