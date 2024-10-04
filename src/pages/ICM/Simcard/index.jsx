@@ -10,6 +10,7 @@ import SimCardTable from './SimcardTable'
 import SimComponent1 from './SimComponent1'
 import SimComponent2 from './SimComponent2'
 import SimComponent3 from './SimComponent3'
+import ThreeColumnComponent from './SimCardColumn'
 
 function Simcard() {
   return (
@@ -18,6 +19,7 @@ function Simcard() {
       <SimcardMain/>
       <SimcardAbout/>
       <SimcardBlog/>
+      <ThreeColumnComponent/>
       <SimComponent1/>
       <SimCardTable/>
       <SimComponent2/>
