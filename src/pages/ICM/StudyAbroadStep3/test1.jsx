@@ -1,6 +1,5 @@
 import React from 'react'
-
-export default function Test2() {
+export default function Test1() {
 
   return (
     <>
@@ -20,7 +19,7 @@ export default function Test2() {
             <h4 className="title mb35">
               “ The post-arrival support provided by ICM was exceptional! From the moment I landed, their team was there to guide me through every step. They made the transition smooth by helping me with local essentials, providing detailed information, and addressing all my concerns promptly. I never felt alone during this critical phase, and their support made a significant difference in helping me settle down quickly. I highly recommend their services to anyone looking for a stress-free experience after arrival.”
             </h4>
-            <h4>Samuel</h4>
+            <h4>John</h4>
             <h6 className="author fz14">University Of Dubblin</h6>
             <p className="desig mb-0">Ireland</p>
           </div>
