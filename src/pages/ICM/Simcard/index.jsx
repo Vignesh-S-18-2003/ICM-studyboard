@@ -6,6 +6,10 @@ import SimcardBlog from './SimcardBlog'
 import SimcardDialer from './SimcardDialer'
 import ContactPage from '@/pages/contact'
 import SimcardTestimonals from './SimcardTestimonals'
+import SimCardTable from './SimcardTable'
+import SimComponent1 from './SimComponent1'
+import SimComponent2 from './SimComponent2'
+import SimComponent3 from './SimComponent3'
 
 function Simcard() {
   return (
@@ -14,7 +18,12 @@ function Simcard() {
       <SimcardMain/>
       <SimcardAbout/>
       <SimcardBlog/>
-      <SimcardTestimonals/>
+      <SimComponent1/>
+      <SimCardTable/>
+      <SimComponent2/>
+      <SimCardTable/>
+      <SimComponent3/>
+      <SimCardTable/>
       <SimcardDialer/>
       <ContactPage/>
     </div>
