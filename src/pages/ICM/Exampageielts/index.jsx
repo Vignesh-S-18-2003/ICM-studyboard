@@ -9,6 +9,7 @@ import IeltsService from './Ieltsservice'
 import IeltsResource from './Ieltsresource'
 import IeltsSearch from './IeltsSearch'
 import IeltsFact from './IeltsFact'
+import ExamPattern from './ExamPattern'
 
 function Examieltspage() {
   return (
@@ -17,6 +18,7 @@ function Examieltspage() {
       <Examain/>
       <Ieltsabout/>
       <Ieltsblog/>
+      <ExamPattern/>
       <IeltsFact/>
       <IeltsResource/>
       <IeltsSearch/>
