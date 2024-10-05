@@ -11,7 +11,7 @@ export default function Examain() {
                 <div className="animate_thumb">
                   <img
                     className="w-100"
-                    src="/images/icon/error-page-img.svg"
+                    src="/images/IeltsExam/image.png"
                     alt="error-page-img"
                   />
                 </div>

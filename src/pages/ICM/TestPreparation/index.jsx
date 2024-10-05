@@ -5,6 +5,7 @@ import CtaBanner13 from './CtaBanner13';
 import CtaBanner17 from './CtaBanner17';
 import HighestRated3 from './HighestRated3';
 import ContactPage from '@/pages/contact'
+import AdmissionLearn from '../AdmissionAssistance/AdmissionLearn';
 function TestPreparation() {
     return (
 
@@ -19,6 +20,7 @@ function TestPreparation() {
 <CtaBanner17/>
 <br />
 <HighestRated3/>
+<AdmissionLearn/>
 <ContactPage/>
 
 

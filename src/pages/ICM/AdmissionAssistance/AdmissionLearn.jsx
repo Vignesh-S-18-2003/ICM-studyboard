@@ -1,5 +1,6 @@
-import LearnFreeIoCard2 from "@/components/card/LearnFreeIoCard2";
+// import LearnFreeIoCard2 from "@/components/card/LearnFreeIoCard2";
 import CountUp from "react-countup";
+import AdmissionCard from "./AdmissionCard";
 
 export default function AdmissionLearn() {
   return (
@@ -21,7 +22,7 @@ export default function AdmissionLearn() {
               .fill(3)
               .map((_, i) => (
                 <div key={i} className="col-sm-6 col-lg-6">
-                  <LearnFreeIoCard2 />
+                  <AdmissionCard />
                 </div>
               ))}
           </div>

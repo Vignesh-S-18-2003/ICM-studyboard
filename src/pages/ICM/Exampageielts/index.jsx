@@ -1,4 +1,3 @@
-import Examain from '@/components/exampage/Examain'
 import Header17 from '@/components/header/Header17'
 import React from 'react'
 import Ieltsabout from './Ieltsabout'
@@ -10,6 +9,7 @@ import IeltsResource from './Ieltsresource'
 import IeltsSearch from './IeltsSearch'
 import IeltsFact from './IeltsFact'
 import ExamPattern from './ExamPattern'
+import Examain from './Examain'
 
 function Examieltspage() {
   return (
