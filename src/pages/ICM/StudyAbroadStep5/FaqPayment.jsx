@@ -15,7 +15,7 @@ export default function FaqPayment() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  How do I start my application process for studying abroad?
+                  What are the essential documents I need to prepare for departure?
                 </button>
               </h2>
               <div
@@ -25,7 +25,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Begin by researching programs and universities that align with your academic and career goals. Once you have selected a few, review their application requirements and deadlines carefully.
+                  Ensure you have your passport, visa, acceptance letter from the university, and any other necessary documents such as health insurance and financial statements.
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  What documents do I need to prepare for my application?
+                  How should I manage my finances before leaving?
                 </button>
               </h2>
               <div
@@ -49,7 +49,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Most applications will require academic transcripts, letters of recommendation, a personal statement, a resume/CV, proof of language proficiency (like TOEFL or IELTS), and sometimes a portfolio or work samples for certain programs.
+                  Set a budget for your initial expenses, explore options for international banking, and consider setting up a local bank account once you arrive.
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  How do I submit my application?
+                  What items should I pack for my journey?
                 </button>
               </h2>
               <div
@@ -73,7 +73,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Applications are typically submitted online through the university’s website or application portal. Make sure to upload all required documents and pay the application fee, if applicable, before the deadline.
+                  Pack essentials such as clothing appropriate for the climate, necessary medications, electronic devices, and important documents in your carry-on luggage.
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseFour"
                 >
-                  How long does it take to receive a response?
+                  How can I prepare for cultural differences?
                 </button>
               </h2>
               <div
@@ -97,31 +97,7 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Processing times vary by institution, but you can expect to receive a response within a few weeks to a few months after submitting your application. Be sure to check the status of your application regularly.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFive">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                  aria-expanded="false"
-                  aria-controls="collapseFive"
-                >
-                  What should I do after receiving an offer letter?
-                </button>
-              </h2>
-              <div
-                id="collapseFive"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingFive"
-                data-parent="#accordionExample"
-              >
-                <div className="accordion-body">
-                  After receiving an offer, review the conditions of the offer carefully. If you accept, you’ll need to confirm your enrollment, apply for a student visa, and make necessary arrangements such as housing and travel.
+                  Research your host country’s culture, customs, and social norms to better understand and adapt to your new environment.
                 </div>
               </div>
             </div>

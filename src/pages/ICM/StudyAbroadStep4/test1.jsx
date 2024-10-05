@@ -7,7 +7,6 @@ export default function Test1() {
         <div className="col-lg-5 col-xl-4">
           <div className="testimonial-style4-img position-relative">
             <img
-              
               src='/images/StudyAbroadstep/testimonal.png' width="448" height="520"
               alt="testimonial"
             />

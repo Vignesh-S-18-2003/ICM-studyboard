@@ -65,7 +65,7 @@ export default function section1() {
           </div>
           <img
   className="cta-banner3-img wow fadeInLeft object-fit-cover"
-  src="public/images/StudyAbroadstep/sa2.png"
+  src="/images/StudyAbroadstep/sa2.png"
   alt="cta banner 3"
   style={{ height: '880px' }} // Adjust the height here
   data-wow-delay="300ms"

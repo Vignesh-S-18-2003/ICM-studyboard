@@ -121,7 +121,15 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  After receiving an offer, review the conditions of the offer carefully. If you accept, you’ll need to confirm your enrollment, apply for a student visa, and make necessary arrangements such as housing and travel.
+                  After receiving an offer letter, it's important to carefully review the offer details, including any conditions attached. Here are the steps to follow:
+                  <ul>
+                    <li><strong>Confirm Your Acceptance:</strong> Follow the university's instructions to formally accept the offer, and if required, pay a deposit to secure your spot.</li>
+                    <li><strong>Apply for a Student Visa:</strong> Begin the visa application process using your offer letter and other necessary documents like proof of funds, academic records, and language proficiency test results.</li>
+                    <li><strong>Organize Accommodation:</strong> Start looking for accommodation options, whether on-campus or off-campus. Many universities provide housing assistance for international students.</li>
+                    <li><strong>Arrange Finances:</strong> Plan your budget, including tuition, living expenses, travel, and health insurance. Explore scholarships, grants, or financial aid options.</li>
+                    <li><strong>Book Travel:</strong> Once your visa is confirmed, book your flights and plan your arrival, ensuring you have transportation from the airport to your accommodation.</li>
+                    <li><strong>Prepare for Enrollment:</strong> Keep track of any pre-enrollment tasks, such as attending orientation sessions or completing paperwork.</li>
+                  </ul>
                 </div>
               </div>
             </div>
