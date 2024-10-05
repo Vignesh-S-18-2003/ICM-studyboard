@@ -1,8 +1,8 @@
-export default function FaqPayment() {
+export default function Section3() {
   return (
     <>
       <div className="ui-content">
-        <h2 className="title" style={{ color: 'orange' }}><u>Frequently Asked Questions</u></h2>
+        <h2 className="title" style={{ color: 'orange' }}> Preparing to Depart</h2>
         <div className="accordion-style1 faq-page mb90">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item active">
@@ -15,7 +15,7 @@ export default function FaqPayment() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  How do I start my application process for studying abroad?
+                  <span className="accordion-number">1.</span> Finalizing Travel Arrangements
                 </button>
               </h2>
               <div
@@ -25,9 +25,10 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Begin by researching programs and universities that align with your academic and career goals. Once you have selected a few, review their application requirements and deadlines carefully.
+                  Ensure that your flights are booked, accommodations are confirmed, and you have a clear travel itinerary to follow before your departure.
                 </div>
               </div>
+              <div style={{ borderBottom: '2px solid orange', margin: '10px 0' }}></div>
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
@@ -39,7 +40,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  What documents do I need to prepare for my application?
+                  <span className="accordion-number">2.</span> Understanding Visa Requirements
                 </button>
               </h2>
               <div
@@ -49,10 +50,11 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Most applications will require academic transcripts, letters of recommendation, a personal statement, a resume/CV, proof of language proficiency (like TOEFL or IELTS), and sometimes a portfolio or work samples for certain programs.
+                  Familiarize yourself with the student visa application process and required documents to ensure a smooth entry into your host country.
                 </div>
               </div>
             </div>
+            <div style={{ borderBottom: '2px solid orange', margin: '10px 0' }}></div>
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button
@@ -63,7 +65,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  How do I submit my application?
+                  <span className="accordion-number">3.</span> Packing Essentials
                 </button>
               </h2>
               <div
@@ -73,10 +75,11 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Applications are typically submitted online through the university’s website or application portal. Make sure to upload all required documents and pay the application fee, if applicable, before the deadline.
+                  Create a packing list that includes essentials such as clothing, documents, and personal items tailored to your destination's climate and culture.
                 </div>
               </div>
             </div>
+            <div style={{ borderBottom: '2px solid orange', margin: '10px 0' }}></div>
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFour">
                 <button
@@ -87,7 +90,7 @@ export default function FaqPayment() {
                   aria-expanded="false"
                   aria-controls="collapseFour"
                 >
-                  How long does it take to receive a response?
+                  <span className="accordion-number">4.</span> Financial Preparation
                 </button>
               </h2>
               <div
@@ -97,34 +100,11 @@ export default function FaqPayment() {
                 data-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  Processing times vary by institution, but you can expect to receive a response within a few weeks to a few months after submitting your application. Be sure to check the status of your application regularly.
+                  Organize your finances, including setting up a local bank account, understanding currency exchange, and budgeting for your initial expenses.
                 </div>
               </div>
             </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFive">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                  aria-expanded="false"
-                  aria-controls="collapseFive"
-                >
-                  What should I do after receiving an offer letter?
-                </button>
-              </h2>
-              <div
-                id="collapseFive"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingFive"
-                data-parent="#accordionExample"
-              >
-                <div className="accordion-body">
-                  After receiving an offer, review the conditions of the offer carefully. If you accept, you’ll need to confirm your enrollment, apply for a student visa, and make necessary arrangements such as housing and travel.
-                </div>
-              </div>
-            </div>
+            <div style={{ borderBottom: '2px solid orange', margin: '10px 0' }}></div>
           </div>
         </div>
       </div>

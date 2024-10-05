@@ -21,41 +21,45 @@ export default function Section1() {
                 <div className="mb30">
                   <div className="main-title">
                     <h2 className="title" style={{ color: 'orange' }}>
-                      Broaden Your Horizons, Expertise, <br className="d-none d-xl-block" /> and Career Opportunities
+                      Arrive and Thrive: <br className="d-none d-xl-block" /> Embrace Your New Journey
                     </h2>
 
                     <p className="mt-3">
-                      ICM guides students in choosing the ideal time and destination for their study abroad journey. 
-                      It covers factors like academic fit, cost of living, and cultural preferences while offering personalized recommendations and key deadlines. 
-                      This helps students make informed decisions tailored to their goals and timelines.
+                      ICM is dedicated to helping students thrive in their new environment with tailored support and resources. From local insights to networking opportunities, we ensure you have everything you need to adapt and excel.
                     </p>
                   </div>
                 </div>
                 <div className="why-chose-list">
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-badge" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">World-Class Education</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      1
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Cultural Orientation</h4>
                       <p className="text mb-0 fz15">
-                        Gain access to top-tier academic institutions and programs that <br className="d-none d-lg-block" /> enhance your learning experience.
+                        Engage in sessions that provide insights into local customs, etiquette, and cultural practices to help you feel at home.
                       </p>
                     </div>
                   </div>
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-money" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Global Exposure</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      2
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Local Resources</h4>
                       <p className="text mb-0 fz15">
-                        Immerse yourself in diverse cultures and environments, broadening <br className="d-none d-lg-block" /> your worldview and fostering international connections.
+                        Discover essential local services, including healthcare, transportation, and community centers to support your transition.
                       </p>
                     </div>
                   </div>
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-security" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Valuable Skills for Career Enhancement</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      3
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Networking Opportunities</h4>
                       <p className="text mb-0 fz15">
-                        Develop essential skills and competencies that boost your employability and prepare you for a global job market.
+                        Connect with fellow students and locals through organized events and activities to build a supportive community abroad.
                       </p>
                     </div>
                   </div>

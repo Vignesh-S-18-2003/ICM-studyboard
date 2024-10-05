@@ -21,41 +21,46 @@ export default function Section1() {
                 <div className="mb30">
                   <div className="main-title">
                     <h2 className="title" style={{ color: 'orange' }}>
-                      Broaden Your Horizons, Expertise, <br className="d-none d-xl-block" /> and Career Opportunities
+                      Preparing to Depart: <br className="d-none d-xl-block" /> Your Journey Starts Here
                     </h2>
 
                     <p className="mt-3">
-                      ICM guides students in choosing the ideal time and destination for their study abroad journey. 
-                      It covers factors like academic fit, cost of living, and cultural preferences while offering personalized recommendations and key deadlines. 
-                      This helps students make informed decisions tailored to their goals and timelines.
+                      ICM ensures students are fully prepared for their departure with comprehensive guidance on essential steps like visa applications, travel arrangements, and pre-departure planning. 
+                      We provide checklists and resources to make the transition smooth, covering everything from packing to settling in.
                     </p>
                   </div>
                 </div>
                 <div className="why-chose-list">
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-badge" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">World-Class Education</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      1
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Visa and Documentation</h4>
                       <p className="text mb-0 fz15">
-                        Gain access to top-tier academic institutions and programs that <br className="d-none d-lg-block" /> enhance your learning experience.
+                        Get expert assistance with your visa application process and <br className="d-none d-lg-block" /> ensure all documentation is ready for a seamless travel experience.
                       </p>
                     </div>
                   </div>
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-money" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Global Exposure</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      2
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Travel Arrangements</h4>
                       <p className="text mb-0 fz15">
-                        Immerse yourself in diverse cultures and environments, broadening <br className="d-none d-lg-block" /> your worldview and fostering international connections.
+                        Learn about flight bookings, accommodation, and transit options <br className="d-none d-lg-block" /> tailored to your destination and budget.
                       </p>
                     </div>
                   </div>
                   <div className="list-one d-flex align-items-start mb30">
-                    <span className="list-icon flex-shrink-0 flaticon-security" />
-                    <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Valuable Skills for Career Enhancement</h4>
+                    <span className="rounded-number" style={{ backgroundColor: 'orange', color: 'white', borderRadius: '50%', padding: '10px 15px', marginRight: '10px' }}>
+                      3
+                    </span>
+                    <div className="list-content flex-grow-1">
+                      <h4 className="mb-1">Packing and Essentials</h4>
                       <p className="text mb-0 fz15">
-                        Develop essential skills and competencies that boost your employability and prepare you for a global job market.
+                        Receive detailed packing lists and recommendations on what to bring <br className="d-none d-lg-block" /> for your new life abroad.
                       </p>
                     </div>
                   </div>

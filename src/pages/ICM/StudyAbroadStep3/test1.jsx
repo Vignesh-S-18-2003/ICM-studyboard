@@ -8,7 +8,7 @@ export default function Test1() {
           <div className="testimonial-style4-img position-relative">
             <img
               
-              src='public\images\StudyAbroadstep\testimonal.png' width="448" height="520"
+              src='/images/StudyAbroadstep/testimonal.png' width="448" height="520"
               alt="testimonial"
             />
           </div>
