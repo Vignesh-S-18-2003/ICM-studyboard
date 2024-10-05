@@ -3,22 +3,22 @@ import React from 'react';
 function ForexBenefitsList3() {
   const benefits = [
     {
-      title: "First and last page of the passport (Self-attested)"
+      title: "1. First and last page of the passport (Self-attested)"
     },
     {
-      title: "University Offer Letter"
+      title: "2. University Offer Letter"
     },
     {
-      title: "Student Visa"
+      title: "3. Student Visa"
     },
     {
-      title: "Airline Ticket"
+      title: "4. Airline Ticket"
     },
     {
-      title: "PAN card"
+      title: "5. PAN card"
     },
     {
-      title:"Aadhar Card"
+      title:"6. Aadhar Card"
     }
   ];
 

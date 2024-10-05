@@ -3,22 +3,22 @@ import React from 'react';
 function ForexBenefitsList2() {
   const benefits = [
     {
-      title: "Valid for 5 years"
+      title: "1. Valid for 5 years"
     },
     {
-      title: "Multicurrency prepaid Visa Forex Card with 16 different currency wallets"
+      title: "2. Multicurrency prepaid Visa Forex Card with 16 different currency wallets"
     },
     {
-      title: "Login ID to track the statements"
+      title: "3. Login ID to track the statements"
     },
     {
-      title: "Transaction notifications"
+      title: "4. Transaction notifications"
     },
     {
-      title: "24-hour access to your money"
+      title: "5. 24-hour access to your money"
     },
     {
-      title:"24×7 Customer Care Service"
+      title:"6. 24×7 Customer Care Service"
     }
   ];
 

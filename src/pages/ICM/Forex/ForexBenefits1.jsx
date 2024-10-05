@@ -3,19 +3,19 @@ import React from 'react';
 function ForexBenefitsList1() {
   const benefits = [
     {
-      title: "Most recommended form of carrying currency abroad, Convenient and widely accepted for international transactions."
+      title: "1 .Most recommended form of carrying currency abroad, Convenient and widely accepted for international transactions."
     },
     {
-      title: "Available at competitive exchange rates, Enjoy better rates compared to traditional currency exchange."
+      title: "2. Available at competitive exchange rates, Enjoy better rates compared to traditional currency exchange."
     },
     {
-      title: "80% - 90% of your forex in card is more economical, a forex card is cost-effective for most of your expenses abroad."
+      title: "3. 80% - 90% of your forex in card is more economical, a forex card is cost-effective for most of your expenses abroad."
     },
     {
-      title: "Cards are PIN-protected for security. Ensures safe transactions with an additional layer of security."
+      title: "4. Cards are PIN-protected for security. Ensures safe transactions with an additional layer of security."
     },
     {
-      title: "Fully replaceable in case of loss or theft. Get a replacement card with minimal hassle in case your card is lost or stolen."
+      title: "5. Fully replaceable in case of loss or theft. Get a replacement card with minimal hassle in case your card is lost or stolen."
     }
   ];
 
