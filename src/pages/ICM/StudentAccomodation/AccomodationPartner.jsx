@@ -9,7 +9,7 @@ const partners = [
   "/images/EducationalLoan/e15.png",
 ];
 
-export default function OurPartner1() {
+export default function AccomodationPartner() {
   const { pathname } = useLocation();
 
   return (
@@ -37,7 +37,7 @@ export default function OurPartner1() {
             ) : (
               <div className="col-lg-12 wow fadeInUp">
                 <div className="main-title text-center">
-                  <h2>Trusted Banking Partners</h2>
+                  <h2>Accommodation Partners</h2>
                 </div>
               </div>
             )}
