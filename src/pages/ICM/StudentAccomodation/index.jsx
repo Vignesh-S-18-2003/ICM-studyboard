@@ -17,6 +17,11 @@ import AccomodationPartner from './AccomodationPartner'
 import AccomodationDialer from './AccomodationDialer'
 import AccomodationFact from './AccomodationFact'
 import AccomodationTypes from './AccomodationTypes'
+import AccomodationGallery1 from './AccomodationGallery1'
+import AccomodationGallery2 from './AccomodationGallery2'
+import AccomodationBlog from './AccomodationBlog'
+import ShopSingleArea1 from '@/components/section/ShopSingleArea1'
+import AccomodationShop1 from './AccomodationShop1'
 
 function StudentAccomodation() {
     return (
@@ -29,9 +34,13 @@ function StudentAccomodation() {
             <AccomodationWhat1/>
             <AccomodationBenefit1/>
             <AccomodationBenefit2/>
+            <AccomodationGallery1/>
             <AccomodationWhat2/>
             <AccomodationBenefit3/>
             <AccomodationBenefit4/>
+            <AccomodationGallery2/>
+            <AccomodationBlog/>
+            <AccomodationShop1/>
             <AccomodationTypes/>
             <AccomodationFact/>
             <AccomodationDialer/>
