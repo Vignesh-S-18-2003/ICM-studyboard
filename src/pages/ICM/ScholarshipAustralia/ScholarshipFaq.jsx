@@ -18,7 +18,7 @@ export default function ScholarshipFaqs() {
           <div className="row wow fadeInUp">
             <div className="col-lg-6 m-auto">
               <div className="main-title text-center">
-                <h2 className="title">IELTS FAQs</h2>
+                <h2 className="title"> FAQs Related to Scholarship</h2>
                 
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function ScholarshipFaqs() {
                           data-bs-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
-                        >How to register for IELTS exam ?
+                        >How do I know which scholarship I am eligible for ? 
                         </button>
                       </h2>
                       <div
@@ -46,12 +46,9 @@ export default function ScholarshipFaqs() {
                         aria-labelledby="headingOne"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        To find out which scholarships you’re eligible for, research universities’ websites for available options and criteria. Utilize scholarship search engines like Study in Australia and check for government or organization scholarships. Consulting education agents can also help, while carefully reviewing eligibility requirements ensures you apply for suitable scholarships.
+                        </div>
                       </div>
                     </div>
 
@@ -64,7 +61,7 @@ export default function ScholarshipFaqs() {
                           data-bs-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
-                        >How many times can I take the IELTS ?
+                        >What scholarships are available for Internatinal students ?
                         </button>
                       </h2>
                       <div
@@ -73,12 +70,9 @@ export default function ScholarshipFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                          Several scholarships are available for international students in Australia, including Australia Awards Scholarships, university-specific merit or need-based scholarships, the Endeavour Postgraduate Scholarship, the Destination Australia Program for regional study, and the Research Training Program (RTP) for international research students. Check individual university websites for detailed eligibility criteria and options.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -90,7 +84,7 @@ export default function ScholarshipFaqs() {
                           data-bs-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
-                        >What is the validity of IELTS exam ?
+                        >Can I receive more than one scholarship ?
                         </button>
                       </h2>
                       <div
@@ -99,12 +93,9 @@ export default function ScholarshipFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        Yes, it is possible to receive more than one scholarship as an international student in Australia, but it depends on the specific scholarship rules and conditions. Some scholarships may allow you to combine funding, while others might require you to choose one. Always check the terms and conditions of each scholarship to understand any restrictions
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -116,7 +107,7 @@ export default function ScholarshipFaqs() {
                           data-bs-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
-                        >How do I pass score to college ?
+                        >How do I apply for the Scholarship ?
                         </button>
                       </h2>
                       <div
@@ -125,12 +116,9 @@ export default function ScholarshipFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        To apply for scholarships as an international student in Australia, research eligible scholarships on university websites and scholarship portals. Gather necessary documents like transcripts and recommendation letters, complete application forms, and write a compelling personal statement. Submit applications before deadlines and follow up to confirm receipt and any additional requirements.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -142,7 +130,7 @@ export default function ScholarshipFaqs() {
                           data-bs-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
-                        >How soon do I get my score ?
+                        >How do I contact Scholarship ?
                         </button>
                       </h2>
                       <div
@@ -151,12 +139,9 @@ export default function ScholarshipFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        To contact scholarship providers, first visit their official websites for contact information. Look for sections like "Contact Us," "Scholarship FAQs," or "Support." You can usually find email addresses, phone numbers, or inquiry forms. If applicable, reach out to the financial aid or international office at your university for assistance with specific scholarships.
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -46,12 +46,10 @@ export default function OurFaq1() {
                         aria-labelledby="headingOne"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                          
+Studying abroad offers a range of benefits that can positively impact both your personal and professional development.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -72,12 +70,8 @@ export default function OurFaq1() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">Choosing where and what to study abroad depends on several factors, such as your academic interests, career goals, budget, and personal preferences.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -98,12 +92,9 @@ export default function OurFaq1() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        The process of applying to study abroad varies depending on the country, university, and program you choose.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -124,12 +115,9 @@ export default function OurFaq1() {
                         aria-labelledby="headingFour"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        Once you’ve received an offer to study abroad, there are several important steps to take before you can begin your studies.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -150,12 +138,9 @@ export default function OurFaq1() {
                         aria-labelledby="headingFive"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        After receiving your offer and completing the necessary steps like confirming the offer, applying for a visa, and securing accommodation, it’s time to prepare for your departure.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -176,12 +161,9 @@ export default function OurFaq1() {
                         aria-labelledby="headingFive"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">     
+                        Once you’ve arrived in your study abroad destination, the next step is to settle in and ensure a smooth transition into your new environment.
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -18,7 +18,7 @@ export default function AdmissionFaqs() {
           <div className="row wow fadeInUp">
             <div className="col-lg-6 m-auto">
               <div className="main-title text-center">
-                <h2 className="title">IELTS FAQs</h2>
+                <h2 className="title">Frequently asked Questions ?</h2>
                 
               </div>
             </div>
@@ -46,12 +46,8 @@ export default function AdmissionFaqs() {
                         aria-labelledby="headingOne"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">The typical timeline for the education loan application process to study abroad generally spans 6 to 12 weeks. This includes 1-2 weeks for research and document preparation, 1 week for application submission, 2-4 weeks for verification, 1-3 weeks for loan approval, and 1-2 weeks for disbursement to the institution.
+                        </div>
                       </div>
                     </div>
 
@@ -73,12 +69,9 @@ export default function AdmissionFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        To choose the right universities for your application, consider the following factors: Program Reputation: Research the university's ranking and reputation in your desired field. Course Content: Review the curriculum to ensure it aligns with your academic and career goals. Location: Consider the city, climate, and living costs.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -99,12 +92,9 @@ export default function AdmissionFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        Yes, I can assist with standardized test preparation for exams like the GRE and TOEFL by providing study tips, resource recommendations, and practice questions. I can help you understand the test format, review key concepts, and develop effective study schedules. 
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -125,12 +115,9 @@ export default function AdmissionFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                          Documents required for your university application typically include a completed application form, academic transcripts, standardized test scores (GRE, TOEFL, IELTS), a statement of purpose, letters of recommendation (2-3), a resume or CV, proof of English proficiency, and an application fee. Always verify specific requirements with each university.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -151,12 +138,9 @@ export default function AdmissionFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        After submitting your application, the university will typically confirm receipt via email. Your application will then be reviewed by the admissions committee, which may take several weeks. They will assess your academic credentials, standardized test scores, and supporting documents. If additional information is needed, the university may contact you.
+                        </div>
                       </div>
                     </div>
                   </div>

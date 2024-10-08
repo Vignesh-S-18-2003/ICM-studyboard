@@ -18,7 +18,7 @@ export default function DestinationFaqs() {
           <div className="row wow fadeInUp">
             <div className="col-lg-6 m-auto">
               <div className="main-title text-center">
-                <h2 className="title">IELTS FAQs</h2>
+                <h2 className="title"> FAQs Related to Australia</h2>
                 
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function DestinationFaqs() {
                           data-bs-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
-                        >How to register for IELTS exam ?
+                        >How much can earn in Australia as a student ? 
                         </button>
                       </h2>
                       <div
@@ -46,12 +46,9 @@ export default function DestinationFaqs() {
                         aria-labelledby="headingOne"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        As an international student in Australia, you can work up to 40 hours per fortnight during semesters and unlimited hours during breaks. Earnings typically range from AUD 20 to AUD 30 per hour, depending on the job type and location. Retail and hospitality roles generally pay lower, while specialized jobs can offer higher wages.
+                        </div>
                       </div>
                     </div>
 
@@ -64,7 +61,7 @@ export default function DestinationFaqs() {
                           data-bs-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
-                        >How many times can I take the IELTS ?
+                        >How much Australian student visa cost ?
                         </button>
                       </h2>
                       <div
@@ -73,12 +70,10 @@ export default function DestinationFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                          
+The cost of an Australian student visa (subclass 500) is typically AUD 650. However, additional costs may apply, including health insurance, which is mandatory for international students. Fees may vary based on factors such as the duration of your studies and any additional services. It's advisable to check the official Department of Home Affairs website for the most current information and potential changes in fees.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -90,7 +85,7 @@ export default function DestinationFaqs() {
                           data-bs-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
-                        >What is the validity of IELTS exam ?
+                        >Is Australia costly for Indian students ?
                         </button>
                       </h2>
                       <div
@@ -99,12 +94,9 @@ export default function DestinationFaqs() {
                         aria-labelledby="headingTwo"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        Australia can be considered relatively costly for Indian students due to high tuition fees and living expenses. Tuition fees range from AUD 20,000 to AUD 45,000 per year, depending on the course and institution. Living expenses, including accommodation, food, transportation, and health insurance, can add another AUD 15,000 to AUD 25,000 annually. However, many students find that the quality of education and potential job opportunities justify the investment. It’s essential to budget wisely and explore scholarships to help manage costs.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -116,7 +108,7 @@ export default function DestinationFaqs() {
                           data-bs-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
-                        >How do I pass score to college ?
+                        >What is 485 post study work in Australia ?
                         </button>
                       </h2>
                       <div
@@ -125,12 +117,9 @@ export default function DestinationFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                        The 485 Temporary Graduate visa in Australia allows international students who have recently graduated from an Australian institution to work in Australia for up to 18 months to 4 years, depending on their qualification. This visa aims to provide graduates with practical work experience in their field of study, enhancing their skills and employability.
+                        </div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -142,7 +131,7 @@ export default function DestinationFaqs() {
                           data-bs-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
-                        >How soon do I get my score ?
+                        >What is the GTE to study in Australia ?
                         </button>
                       </h2>
                       <div
@@ -151,12 +140,9 @@ export default function DestinationFaqs() {
                         aria-labelledby="headingThree"
                         data-parent="#accordionExample"
                       >
-                        {/* <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
-                        </div> */}
+                        <div className="accordion-body">
+                          The Genuine Temporary Entrant (GTE) requirement is a crucial part of the student visa application process for Australia. It assesses whether applicants genuinely intend to stay in Australia temporarily for study purposes. To meet the GTE requirement, you must provide a statement addressing your intentions, outlining your study plans, and demonstrating that you will return to your home country after your studies.
+                        </div>
                       </div>
                     </div>
                   </div>
