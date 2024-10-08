@@ -25,7 +25,7 @@ function AccomodationMain() {
     className="ud-btn me-3 bdrs12"
     style={{ backgroundColor: "orange", color: "white" }}
   ><i className="fas fa-plane" style={{ marginLeft: "8px" }}></i>
-    Book NOW 
+    BOOK NOW 
   </Link>
 </div>
 

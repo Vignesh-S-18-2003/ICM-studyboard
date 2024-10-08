@@ -4332,7 +4332,7 @@ border-radius: 30px;
 /*	Brands  */
 /*  Commons Styles of Template  */
 section {
-  padding: 120px 0;
+  padding: 50px 0;
   position: relative;
 }
 @media (max-width: 991.98px) {
@@ -12326,7 +12326,7 @@ input:focus-visible {
 }
 
 .bgc-thm2 {
-  background-color: #f98724;
+  background-color: #c0c0c0;
 }
 
 .bgc-thm3 {
