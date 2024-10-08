@@ -3,7 +3,7 @@ export default function AccomodationTypes() {
       <>
       <div className="col-lg-9 mx-auto pt90">
               <div className="main-title text-center mb30">
-                <h1 >Types of Educational Loans!</h1>
+                <h1 >Other Types!</h1>
                 {/* <h5 className="paragraph">Follow the steps below to start your Australian education journey
                 </h5> */}
               </div>
@@ -15,10 +15,10 @@ export default function AccomodationTypes() {
               
               <div className="col-lg-7 col-xl-4 offset-xl-1">
                 <div className="cta-style5">
-                  <h2 className="cta-title mb15">Foreign Banks Based Education Loan
+                  <h2 className="cta-title mb15">Homestays
                   </h2>
                   <p className="cta-text mb60">
-                  Many countries lenders are looking at international students as new growth market. Many have started providing funds to International Students with Valid Co-signor’s based in the home country. Here essentially the loan is based on the credit history of the Co-signor and they are responsible for the loan for study abroad for the student.
+                  A homestay offers the chance to live with a local family, providing an immersive experience of the host country’s culture and lifestyle. You'll have a private room and share meals and daily activities with your host family, giving you the opportunity to practice the language and build personal connections.
                    </p>
                   <div className="app-widget at-home6">
                     <div className="row d-flex align-items-center">
@@ -77,9 +77,9 @@ export default function AccomodationTypes() {
               </div>
               <div className="col-lg-7 col-xl-4 offset-xl-1">
                 <div className="cta-style5">
-                  <h2 className="cta-title mb15">Non Co-signor Based Education Loan</h2>
+                  <h2 className="cta-title mb15">Private Student Housing</h2>
                   <p className="cta-text mb60">
-                  These loans are typically offered by specific banks or financial institutions based on the student's academic potential, future earning prospects, or country of study. They provide an option for students who may not have access to a co-signer but still need financial support to pursue their education abroad.
+                  Private student housing is a favored option among international students, with offering various purpose-built accommodations. These housing solutions are tailored to meet students' unique requirements, ensuring a comfortable and supportive living environment.
                   </p>
                   <div className="app-widget at-home6">
                     <div className="row d-flex align-items-center">

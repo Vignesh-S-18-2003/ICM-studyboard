@@ -39,9 +39,9 @@ function StudentAccomodation() {
             <AccomodationBenefit3/>
             <AccomodationBenefit4/>
             <AccomodationGallery2/>
-            <AccomodationBlog/>
-            <AccomodationShop1/>
+            {/* <AccomodationShop1/> */}
             <AccomodationTypes/>
+            <AccomodationBlog/>
             <AccomodationFact/>
             <AccomodationDialer/>
             <AccomodationPartner/>

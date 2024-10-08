@@ -19,7 +19,7 @@ export default function AccomodationBlog() {
               className="text-center"
               style={{ margin: '0', marginBottom: '10px' }} // Set margin to 0 to remove gap
             >
-              Benefits!
+              Why Accommodation with ICM ?
             </h1>
             {pathname === "/home-5" && (
               <div className="col-lg-3 align-self-center">
