@@ -126,11 +126,15 @@ import StudyAbroad4 from "./pages/ICM/StudyAbroadStep4";
 import StudyAbroad5 from "./pages/ICM/StudyAbroadStep5";
 import StudyAbroad6 from "./pages/ICM/StudyAbroadStep6";
 import StudentAccomodation from "./pages/ICM/StudentAccomodation";
+import Germany from "./pages/ICM/Germany";
+import Switzerland from "./pages/ICM/Switzerland";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="Switzerland" element={<Switzerland />} />
+        <Route path="Germany" element={<Germany />} />
         <Route path="StudyAbroad6" element={<StudyAbroad6 />} />
         <Route path="StudentAccomodation" element={<StudentAccomodation />} />
         <Route path="StudyAbroad5" element={<StudyAbroad5 />} />
