@@ -16,7 +16,7 @@ export default function Header17() {
                   <div className="logos">
                     <Link className="header-logo logo1" to="/">
                       <img
-                        src="/images/header-logo-dark.svg"
+                        src="/images/s1.png"
                         alt="Header Logo"
                       />
                     </Link>

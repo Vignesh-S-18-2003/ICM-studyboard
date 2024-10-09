@@ -19,6 +19,7 @@ const metadata = {
 function Landingpage() {
   return (
     <>
+    <div>
     <MetaComponent meta={metadata} />
     <Header17 />
     <Hero1/>
@@ -28,11 +29,17 @@ function Landingpage() {
     <LandingService/>
     <PopularCourse/>
     <StudentEssentials/>
-    <OurFaq1/>
+    <div className="row wow fadeInUp" data-wow-delay="300ms">
+                    <div className="col-lg-8 mx-auto">
+                    <OurFaq1/>
+                    </div>
+                </div>
+   
     <ContactPage/>
     {/* <div className="body_content">
       <Hero16 />
     </div> */}
+    </div>
   </>
   )
 }
