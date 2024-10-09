@@ -35,7 +35,7 @@ export default function SimcardMain() {
               <img
                 style={{ height: "fit-content" }}
                 className="bdrs20"
-                src="\images\simCard\image4.png"
+                src="\images\simCard\s1.png"
                 alt=" image "
               />
             </div>

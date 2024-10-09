@@ -11,7 +11,7 @@ export default function ScholarshipMain() {
                 <div className="animate_thumb">
                   <img
                     className="w-100"
-                    src="/images/destinationimage/destination-logo.png"
+                    src="/images/Scholarship/s1.png"
                     alt="error-page-img"
                   />
                 </div>
