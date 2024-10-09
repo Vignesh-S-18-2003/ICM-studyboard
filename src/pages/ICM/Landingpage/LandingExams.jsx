@@ -17,7 +17,7 @@ const aboutImages1 = [
         <section className="our-about pb90">
           <div className="container text-center">
             <h2 className="pb90 ">Exams</h2>
-            <div className="row align-items-center justify-content-start">
+            <div className="row align-items-center justify-content-center">
               {aboutImages1.map((item, index) => (
                 <div key={index} className="col-8 col-md-2">
                   <div className="position-relative mb30">
@@ -30,7 +30,7 @@ const aboutImages1 = [
                 </div>
               ))}
             </div>
-            <div className="row align-items-center justify-content-end">
+            <div className="row align-items-center justify-content-center">
               {aboutImages2.map((item, index) => (
                 <div key={index} className="col-8 col-md-2">
                   <div className="position-relative mb30">

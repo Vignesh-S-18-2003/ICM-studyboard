@@ -32,12 +32,12 @@ export default function ForexMain() {
           </div>
           <div className="col-lg-6">
             <div className="home11-hero-img text-center text-xxl-end">
-              {/* <img
+              <img
                 style={{ height: "fit-content" }}
-                className="bdrs20"
-                src="\images\EducationalLoan\e1.png"
+                className="bdrs20 w-100"
+                src="\images\simCard\image5.jpg"
                 alt=" image "
-              /> */}
+              />
             </div>
           </div>
         </div>

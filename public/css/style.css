@@ -3958,6 +3958,18 @@ border-radius: 30px;
   position: absolute;
   top: 120px;
 }
+
+.img-container {
+  width: 100px;
+  height: 100px;
+}
+
+.image-name {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
 @media (max-width: 1200px) {
   .home18-hero-img .detail {
     left: 30px;

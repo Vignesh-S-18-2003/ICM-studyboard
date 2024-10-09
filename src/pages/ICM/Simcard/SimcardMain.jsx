@@ -32,12 +32,12 @@ export default function SimcardMain() {
           </div>
           <div className="col-lg-6">
             <div className="home11-hero-img text-center text-xxl-end">
-              {/* <img
+              <img
                 style={{ height: "fit-content" }}
                 className="bdrs20"
-                src="\images\EducationalLoan\e1.png"
+                src="\images\simCard\image4.png"
                 alt=" image "
-              /> */}
+              />
             </div>
           </div>
         </div>
