@@ -11,6 +11,7 @@ import SAustraliaCourse from './SAustraliaCourse'
 import ScholarshipStudy from './ScholarshipStudy'
 import ScholarshipUniversities from './ScholarshipUniversities'
 import ScholarshipTable from './ScholarshipTable'
+import ScholarshipAustraliaFact from './ScholarshipAustraliaFact'
 
 function ScholarshipAustralia() {
   return (
@@ -22,6 +23,7 @@ function ScholarshipAustralia() {
       <ScholarshipStudy/>
       <ScholarshipUniversities/>
       <ScholarshipTable/>
+      <ScholarshipAustraliaFact/>
       <ScholarshipAlumni/>
       <ScholarshipDialer/>
       <ScholarshipFaqs/>

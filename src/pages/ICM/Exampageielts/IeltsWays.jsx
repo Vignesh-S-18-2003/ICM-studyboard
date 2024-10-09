@@ -19,7 +19,7 @@ export default function IeltsWays() {
                 <div className="img-container">
                   <img src={image.src} alt={image.name} className="img-fluid" />
                 </div>
-                <div className="ml-3">
+                <div className="ml-3 pl90">
                   <h5 className="image-name">{image.name}</h5>
                 </div>
               </div>

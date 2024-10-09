@@ -181,7 +181,7 @@ export const blogx2 = [
 export const blogx = [
   {
     id: 1,
-    img: "/images/EducationalLoan/e2.png",
+    img: "/images/simCard/image6.png",
     date: "December 2, 2022",
     title: "Trusted Partner",
     brief: "It offer safe, comfortable, and student-friendly living options tailored to meet the needs of international students.",

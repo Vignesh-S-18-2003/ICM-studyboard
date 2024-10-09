@@ -13,8 +13,8 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm5 pb50 pt60 px20 bdrs24 text-center mb30">
             <img
-                className="mb30 w-100 h-auto"
-                src="/images/IeltsExam/IELTS-Logo.jpg"
+                className="mb30 w-100 h-100"
+                src="/images/IeltsExam/exam1.png"
                 alt=" image "
               />
               <h2 className="title mb30">IELTS Syllabus</h2>
@@ -29,8 +29,8 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm4 pb50 pt60 px20 bdrs24 text-center mb30">
               <img
-                className="mb30 w-100 h-auto"
-                src="/images/IeltsExam/IELTS-Logo.jpg"
+                className="mb30 w-100 h-100"
+                src="/images/IeltsExam/exam2.png"
                 alt=" image "
               />
               <h2 className="title mb30">IELTS Mock Test</h2>
@@ -44,8 +44,8 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm5 pb50 pt60 px20 bdrs24 text-center mb30">
             <img
-                className="mb30 w-100 h-auto"
-                src="/images/IeltsExam/IELTS-Logo.jpg"
+                className="mb30 w-100 h-100"
+                src="/images/IeltsExam/exam3.png"
                 alt=" image "
               />
               <h2 className="title mb30">Study Plan</h2>

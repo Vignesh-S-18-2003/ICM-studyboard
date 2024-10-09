@@ -10,7 +10,7 @@ function ExamPattern() {
 
   return (
     <div className="container mt-5 mb-5">
-      <h2 className="mb-4 text-center">Test Sections Overview</h2>
+      <h2 className="mb-4 text-center">Pattern</h2>
       <table className="table table-bordered table-hover">
         <thead className="thead-dark">
           <tr>

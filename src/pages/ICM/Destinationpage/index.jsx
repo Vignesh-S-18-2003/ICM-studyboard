@@ -11,6 +11,7 @@ import DestinationServices from './Destinationervices'
 import ContactPage from '@/pages/contact'
 import DestinationSponsors from './DestinationSponsors'
 import DestinationAlumni from './DestinationAlumni'
+import DestinationStudies from './DestinationStudies'
 
 function Destinationpage() {
   return (
@@ -21,9 +22,10 @@ function Destinationpage() {
       <DestinationStudy/>
       <DestinationService />
       <DestinationGallery/>
-      <DestinationSearch/>
       <DestinationSponsors/>
       <DestinationAlumni/>
+      <DestinationSearch/>
+      <DestinationStudies/>
       <DestinationFaqs/>
       <DestinationServices/>
       <ContactPage/>

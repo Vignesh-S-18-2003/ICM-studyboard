@@ -12,6 +12,8 @@ import ScholarshipTestimonial from './ScholarshipTestimonal'
 import ScholarshipCourse from './ScholarshipCourse'
 import ScholarshipTable from '../ScholarshipAustralia/ScholarshipTable'
 import ScholarshipSection from './ScholarshipSection'
+import ScholarshipUniversity from './ScholarshipUniversity'
+import ScholarshipFact from './ScholarshipFact'
 
 function Scholarship() {
   return (
@@ -24,8 +26,10 @@ function Scholarship() {
       <ScholarshipResource/>
       <ScholarshipTypes/>
       <ScholarshipSection/>
+      <ScholarshipUniversity/>
       <ScholarshipSponsors/>
       <ScholarshipTestimonial/>
+      <ScholarshipFact/>
       <ScholarshipArticles/>
       <ContactPage/>
     </div>

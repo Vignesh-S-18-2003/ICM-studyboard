@@ -25,9 +25,9 @@ function Landingpage() {
     <Hero1/>
     <Dreamdestination/>
     <LandingExam/>
-    <NeedSomething1 />
     <LandingService/>
     <PopularCourse/>
+    <NeedSomething1 />
     <StudentEssentials/>
     <div className="row wow fadeInUp" data-wow-delay="300ms">
                     <div className="col-lg-8 mx-auto">
