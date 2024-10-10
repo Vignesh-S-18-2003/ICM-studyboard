@@ -13,7 +13,7 @@ const aboutImages = [
 export default function Dreamdestination() {
   return (
     <>
-      <section className="our-about pb90">
+      <section className="our-about pb90 wow fadeInUp">
         <div className="container text-center">
           <h1 className="pb90">Dream Destinations</h1>
           <div className="row align-items-center">

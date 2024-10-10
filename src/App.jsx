@@ -156,7 +156,7 @@ function App() {
       )}
 
       {/* sidebar mobile navigation */}
-      <NavSidebar />
+      {/* <NavSidebar /> */}
       <ScrollTopBehaviour />
     </div>
   );

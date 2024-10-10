@@ -1,11 +1,11 @@
+import servimg from '/images/servximg/servx.png';
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-
-import servimg from '/images/servximg/servx.png';
-import { useState } from "react";
+import { useState } from "react"; // Import your product data here
+import { product1 } from '@/data/product';
 
 export default function PopularServiceCardx({
-  data,
+  data = product1[0], // Default to the first item from product1
   style = "",
   isContentExpanded = false,
 }) {
@@ -37,39 +37,17 @@ export default function PopularServiceCardx({
           </a>
         </div>
         <div className={`list-content ${isContentExpanded ? "px-0" : ""}`}>
-          {/* <p className="list-text body-color fz14 mb-1">{data.category}</p> */}
           <h5 className="list-title">
             <Link to={`/service-single/${data.id}`}>
-            How to learning books can change your life ?
-            <p>Download the IELTS Syllabus </p>
+              {data.title}
+              <p>{data.category}</p>
             </Link>
           </h5>
-          {/* <div className="review-meta d-flex align-items-center">
-            <i className="fas fa-star fz10 review-color me-2" />
-            <p className="mb-0 body-color fz14">
-              <span className="dark-color me-2">{data.rating}</span>
-              {data.review} reviews
-            </p>
-          </div> */}
           <hr className="my-2" />
           <div className="list-meta d-flex justify-content-between align-items-center mt15">
-            {/* <Link className="d-flex" to="/">
-              <span className="position-relative mr10">
-                <img
-                  className="rounded-circle wa"
-                  src={data.author.img}
-                  alt="Freelancer Photo"
-                />
-                <span className="online-badges" />
-              </span>
-              <span className="fz14">{data.author.name}</span>
-            </Link> */}
             <div className="budget">
               <p className="mb-0 body-color">
-              27 June 2024 . 5 min
-                {/* <span className="fz17 fw500 dark-color ms-1">
-                  ${data.price}
-                </span> */}
+                {data.deliveryTime} delivery . {data.price} USD
               </p>
             </div>
           </div>

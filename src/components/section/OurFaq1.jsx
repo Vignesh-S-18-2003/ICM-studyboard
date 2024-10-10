@@ -2,8 +2,8 @@ export default function Section3() {
   return (
       <>
           <div className="ui-content">
-              <h1 className="title" style={{ color: 'orange' , textAlign: 'center'  }} > Study Abroad Steps</h1>
-              <div className="accordion-style1 faq-page mb90">
+              <h1 className="title wow fadeInUp" style={{ color: 'orange' , textAlign: 'center'  }} > Study Abroad Steps</h1>
+              <div className="accordion-style1 faq-page mb90 ">
                   <div className="accordion" id="accordionExample">
                       <div className="accordion-item active">
                           <h2 className="accordion-header" id="headingOne" >

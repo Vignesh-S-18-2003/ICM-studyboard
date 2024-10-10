@@ -4,9 +4,9 @@ function PopularCourse() {
   return (
     <div className='text-center pb-100'>
       <div>
-        <h1>Popular Courses</h1>
+        <h1 className='wow fadeInUp'>Popular Courses</h1>
       </div>
-      <ul className="nav justify-content-center pt90" id="pills-tab2">
+      <ul className="nav justify-content-center pt90 wow fadeInUp" id="pills-tab2">
         <li className="nav-item">
           <a
             className="nav-link"

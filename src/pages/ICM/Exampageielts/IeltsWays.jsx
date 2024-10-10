@@ -13,7 +13,7 @@ export default function IeltsWays() {
     <div className="container my-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-10" style={{ width: '60vw' }}>
-          <div className="row">
+          <div className="row wow fadeInUp">
             {images.map((image, index) => (
               <div className="col-md-6 mb-4 d-flex align-items-center" key={index}>
                 <div className="img-container">

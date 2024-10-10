@@ -14,10 +14,10 @@ const aboutImages1 = [
   export default function LandingExam() {
     return (
       <>
-        <section className="our-about pb90">
-          <div className="container text-center">
-            <h1 className="pb90 ">Exams</h1>
-            <div className="row align-items-center justify-content-center">
+        <section className="our-about pb90 ">
+          <div className="container text-center ">
+            <h1 className="pb90 wow fadeInUp">Exams</h1>
+            <div className="row align-items-center justify-content-center wow fadeInUp">
               {aboutImages1.map((item, index) => (
                 <div key={index} className="col-8 col-md-2">
                   <div className="position-relative mb30">

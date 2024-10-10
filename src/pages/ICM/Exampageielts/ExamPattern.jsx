@@ -10,8 +10,8 @@ function ExamPattern() {
 
   return (
     <div className="container mt-5 mb-5">
-      <h2 className="mb-4 text-center">Pattern</h2>
-      <table className="table table-bordered table-hover">
+      <h2 className="mb-4 text-center wow fadeInUp">Pattern</h2>
+      <table className="table table-bordered table-hover wow fadeInUp">
         <thead className="thead-dark">
           <tr>
             <th>Section Name</th>

@@ -67,12 +67,12 @@ export default function IeltsService() {
           <div className="row align-items-center wow fadeInUp">
             <div className="col-lg-9 mx-auto">
               <div className="main-title text-center mb30">
-                <h2 className="title">Related Articles</h2>
+                <h2 className="title wow fadeInUp">Related Articles</h2>
                 
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row wow fadeInUp">
             <div className="col-lg-12">
               <div className="navpill-style2">
                 <ul
