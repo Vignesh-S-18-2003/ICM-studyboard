@@ -13,7 +13,7 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm5 pb50 pt60 px20 bdrs24 text-center mb30">
             <img
-                className="mb30 w-100 h-100"
+                className="mb30 w-30 h-100"
                 src="/images/IeltsExam/exam1.png"
                 alt=" image "
               />
@@ -29,7 +29,7 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm4 pb50 pt60 px20 bdrs24 text-center mb30">
               <img
-                className="mb30 w-100 h-100"
+                className="mb30 w-30 h-100"
                 src="/images/IeltsExam/exam2.png"
                 alt=" image "
               />
@@ -44,7 +44,7 @@ export default function IeltsResource() {
           <div className="col-md-4">
             <div className="find-work bgc-thm5 pb50 pt60 px20 bdrs24 text-center mb30">
             <img
-                className="mb30 w-100 h-100"
+                className="mb30 w-30 h-100"
                 src="/images/IeltsExam/exam3.png"
                 alt=" image "
               />
