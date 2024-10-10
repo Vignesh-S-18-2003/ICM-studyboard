@@ -1,13 +1,9 @@
 import { Link } from "react-router-dom";
-import MetaComponent from "@/components/common/MetaComponent";
-const metadata = {
-  title: "Freeio - Freelance Marketplace ReactJs Template | Register",
-};
-export default function RegisterPage() {
-  <MetaComponent meta={metadata} />;
+
+export default function LoginPage() {
   return (
     <>
-      <section className="our-register">
+      <section className="our-login">
         <div className="container">
           <div className="row">
             <div
@@ -15,48 +11,17 @@ export default function RegisterPage() {
               data-wow-delay="300ms"
             >
               <div className="main-title text-center">
-                <h2 className="title">Register</h2>
-                <p className="paragraph">
-                  Give your visitor a smooth online experience with a solid UX
-                  design
-                </p>
+                <h2 className="title">Log In</h2>
               </div>
             </div>
           </div>
           <div className="row wow fadeInRight" data-wow-delay="300ms">
             <div className="col-xl-6 mx-auto">
               <div className="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
-                <div className="mb30">
-                  <h4>Let's create your account!</h4>
-                  <p className="text mt20">
-                    Already have an account?{" "}
-                    <Link to="/login" className="text-thm">
-                      Log In!
-                    </Link>
-                  </p>
-                </div>
-                <div className="mb25">
-                  <label className="form-label fw500 dark-color">
-                    Display Name
+                <div className="mb20">
+                  <label className="form-label fw600 dark-color">
+                    Email Address
                   </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="ali"
-                  />
-                </div>
-                <div className="mb25">
-                  <label className="form-label fw500 dark-color">
-                    Username
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="alitf"
-                  />
-                </div>
-                <div className="mb25">
-                  <label className="form-label fw500 dark-color">Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -64,7 +29,7 @@ export default function RegisterPage() {
                   />
                 </div>
                 <div className="mb15">
-                  <label className="form-label fw500 dark-color">
+                  <label className="form-label fw600 dark-color">
                     Password
                   </label>
                   <input
@@ -73,12 +38,19 @@ export default function RegisterPage() {
                     placeholder="*******"
                   />
                 </div>
+                <div className="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
+                  <label className="custom_checkbox fz14 ff-heading">
+                    Remember me
+                    <input type="checkbox" defaultChecked="checked" />
+                    <span className="checkmark" />
+                  </label>
+                  <Link to="/lostpassword" className="fz14 ff-heading">
+                    Lost your password?
+                  </Link>
+                </div>
                 <div className="d-grid mb20">
-                  <button
-                    className="ud-btn btn-thm default-box-shadow2"
-                    type="button"
-                  >
-                    Creat Account <i className="fal fa-arrow-right-long" />
+                  <button className="ud-btn btn-thm" type="button">
+                    Log In <i className="fal fa-arrow-right-long" />
                   </button>
                 </div>
                 <div className="hr_content mb20">
@@ -101,6 +73,15 @@ export default function RegisterPage() {
                   <button className="ud-btn btn-apple fz14 fw400" type="button">
                     <i className="fab fa-apple" /> Continue Apple
                   </button>
+                </div>
+                {/* Added "Don't have an account?" section */}
+                <div className="text-center mt20">
+                  <p className="text">
+                    Don't have an account?{" "}
+                    <Link to="/register" className="text-thm">
+                      Register here
+                    </Link>
+                  </p>
                 </div>
               </div>
             </div>

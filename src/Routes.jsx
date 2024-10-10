@@ -61,7 +61,7 @@ import DasbPageManageService from "./pages/dashboard/manage-services";
 import DasbPageManageProjects from "./pages/dashboard/manage-projects";
 import DasbPageCreateProject from "./pages/dashboard/create-projects";
 import DasbPageMyProfile from "./pages/dashboard/my-profile";
-import LoginPage from "./pages/auth/login";
+import LoginPage from "./pages/ICM/login";
 import EmploeePage1 from "./pages/employee/employee-1";
 import EmploeePage2 from "./pages/employee/employee-2";
 import EmploeePageSingle1 from "./pages/employee/employee-single";
@@ -96,8 +96,7 @@ import HelpPage from "./pages/help";
 import InvoicePage from "./pages/invoices";
 import Landingpage from "./pages/ICM/Landingpage"
 import PricingPage from "./pages/pricing";
-import RegisterPage from "./pages/auth/register";
-import TermsPage from "./pages/terms";
+import Register from "./pages/ICM/Register";
 import UIElementsPage from "./pages/ui-elements";
 import StudyAbroad from "./pages/ICM/StudyAbroadStep1";
 import VisaImmigration from "./pages/ICM/VisaImmigration";
@@ -128,11 +127,14 @@ import StudyAbroad6 from "./pages/ICM/StudyAbroadStep6";
 import StudentAccomodation from "./pages/ICM/StudentAccomodation";
 import Germany from "./pages/ICM/Germany";
 import Switzerland from "./pages/ICM/Switzerland";
+import LostPassword from "./pages/ICM/Lostpassword";
+import TermsAndConditions from "./pages/ICM/Terms&Conditions";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="LostPassword" element={<LostPassword />} />
         <Route path="Switzerland" element={<Switzerland />} />
         <Route path="Germany" element={<Germany />} />
         <Route path="StudyAbroad6" element={<StudyAbroad6 />} />
@@ -287,8 +289,8 @@ export default function RoutesComponent() {
           <Route path="help" element={<HelpPage />} />
           <Route path="invoices" element={<InvoicePage />} />
           <Route path="pricing" element={<PricingPage />} />
-          <Route path="register" element={<RegisterPage />} />
-          <Route path="terms" element={<TermsPage />} />
+          <Route path="register" element={<Register />} />
+          <Route path="terms" element={<TermsAndConditions />} />
           <Route path="ui-elements" element={<UIElementsPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
