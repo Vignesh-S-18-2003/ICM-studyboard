@@ -128,12 +128,16 @@ import StudentAccomodation from "./pages/ICM/StudentAccomodation";
 import Germany from "./pages/ICM/Germany";
 import Switzerland from "./pages/ICM/Switzerland";
 import LostPassword from "./pages/ICM/Lostpassword";
+import ScholarshipUSA from "./pages/ICM/ScholarshipUSA";
 import TermsAndConditions from "./pages/ICM/Terms&Conditions";
+import ScholarshipCanada from "./pages/ICM/ScholarshipCanada";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="ScholarshipCanada" element={<ScholarshipCanada />} />
+        <Route path="ScholarshipUSA" element={<ScholarshipUSA />} />
         <Route path="LostPassword" element={<LostPassword />} />
         <Route path="Switzerland" element={<Switzerland />} />
         <Route path="Germany" element={<Germany />} />
