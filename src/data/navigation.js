@@ -151,7 +151,7 @@ const menus = [
     id: 2,
     name: "Study Abroad Steps",
     children: [
-      { id: 1, name: "Step1", path: "/StudyAbroad1" },
+      { id: 1, name: "Step 1", path: "/StudyAbroad1" },
       { id: 2, name: "Step 2", path: "/StudyAbroad2" },
       { id: 3, name: "Step 3", path: "/StudyAbroad3" },
       { id: 4, name: "Step 4", path: "/StudyAbroad4" },
