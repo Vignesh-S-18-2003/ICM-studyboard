@@ -4,23 +4,23 @@ const ScholarshipTable = () => {
   const scholarships = [
     {
       id: 1,
-      name: 'UKn Government Research and Training Program',
-      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'UK Government Research and Training Program',
+      description: 'Funded by the UK Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 2,
-      name: 'UKn Government Research and Training Program',
-      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'UK Government Research and Training Program',
+      description: 'Funded by the UK Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 3,
-      name: 'UKn Government Research and Training Program',
-      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'UK Government Research and Training Program',
+      description: 'Funded by the UK Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 4,
-      name: 'UKn Government Research and Training Program',
-      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'UK Government Research and Training Program',
+      description: 'Funded by the UK Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 5,

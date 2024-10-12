@@ -4,23 +4,23 @@ const ScholarshipTable = () => {
   const scholarships = [
     {
       id: 1,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'Dubai Government Research and Training Program',
+      description: 'Funded by the Dubai Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 2,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'Dubai Government Research and Training Program',
+      description: 'Funded by the Dubai Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 3,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'Dubai Government Research and Training Program',
+      description: 'Funded by the Dubai Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 4,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'Dubai Government Research and Training Program',
+      description: 'Funded by the Dubai Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 5,
