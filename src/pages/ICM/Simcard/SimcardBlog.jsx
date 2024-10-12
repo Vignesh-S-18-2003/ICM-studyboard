@@ -16,7 +16,7 @@ export default function SimcardBlog() {
         <div className="container">
           <div className="row justify-content-between">
             <h1
-              className="text-center"
+              className="text-center wow fadeInUp"
               style={{ margin: '0', marginBottom: '10px' }} // Set margin to 0 to remove gap
             >
               Benefits!

@@ -15,9 +15,9 @@ const SimCardTable = () => {
   return (
     <div className="container mt-5 mb-5">
       {/* <h2 className="text-center mb-4">SIM Card Product Plans</h2> */}
-      <div className="table-responsive">
-        <table className="table table-bordered table-striped">
-          <thead className="bg-primary text-white">
+      <div className="table-responsive ">
+        <table className="table table-bordered table-striped wow fadeInUp">
+          <thead className="bg-primary text-white wow fadeInUp ">
             <tr>
               <th>Product Name</th>
               <th>Plan 1</th>

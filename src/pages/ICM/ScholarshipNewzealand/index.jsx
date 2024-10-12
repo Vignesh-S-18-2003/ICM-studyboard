@@ -1,5 +1,5 @@
 import React from 'react'
-import SAustralia from './SUKmain'
+// import SAustralia from './SAustrailamain'
 import Header17 from '@/components/header/Header17'
 import ScholarshipSearch from '../Scholarship/ScholarshipSearch'
 import ScholarshipArticles from '../Scholarship/ScholarshipArticle'
@@ -7,27 +7,26 @@ import ScholarshipFaqs from './ScholarshipFaq'
 import ContactPage from '@/pages/contact'
 import ScholarshipDialer from './ScholarshipDialer'
 import ScholarshipAlumni from './ScholarshipAlumni'
-import SAustraliaCourse from './SUKCourse'
+// import SAustraliaCourse from './SNewZealandCourse'
 import ScholarshipStudy from './ScholarshipStudy'
 import ScholarshipUniversities from './ScholarshipUniversities'
 import ScholarshipTable from './ScholarshipTable'
-import ScholarshipAustraliaFact from './ScholarshipUkFact'
-import SUk from './SUKmain'
-import SUKCourse from './SUKCourse'
-import ScholarshipDubaiFact from './ScholarshipUkFact'
-import ScholarshipUKFact from './ScholarshipUkFact'
+// import ScholarshipAustraliaFact from './ScholarshipNewZealandFact'
+import SNewZealandCourse from './SNewzCourse'
+import SNewZealand from './SNewzmain'
+import ScholarshipNewZealandFact from './ScholarshipNewzFact'
 
-function ScholarshipUK() {
+function ScholarshipNewZealand() {
   return (
     <div>
         <Header17/>
-      <SUk/>
+      <SNewZealand/>
       <ScholarshipSearch/>
-      <SUKCourse/>
+      <SNewZealandCourse/>
       <ScholarshipStudy/>
       <ScholarshipUniversities/>
       <ScholarshipTable/>
-      <ScholarshipUKFact/>
+      <ScholarshipNewZealandFact/>
       <ScholarshipAlumni/>
       <ScholarshipDialer/>
       <ScholarshipFaqs/>
@@ -37,4 +36,4 @@ function ScholarshipUK() {
   )
 }
 
-export default ScholarshipUK
+export default ScholarshipNewZealand

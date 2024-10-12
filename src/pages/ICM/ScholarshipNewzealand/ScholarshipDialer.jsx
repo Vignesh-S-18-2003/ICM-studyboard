@@ -2,7 +2,7 @@ import HeroSearch1 from '@/components/element/HeroSearch1';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router';
 
-function SimcardDialer() {
+function ScholarshipDialer() {
     const role = [
         "Choose Category",
         "Graphics & Design",
@@ -33,9 +33,9 @@ function SimcardDialer() {
       navigate("/job-1");
     };
   return (
-    <div className='text-center pt100 '>
-    <h1 className='wow fadeInUp'>Get your doubts  </h1>
-    <h1 className='wow fadeInUp'>clarified now for free</h1>
+    <div className='text-center pt100'>
+    <h1>Get your doubts  </h1>
+    <h1>clarified now for free</h1>
         <div className="advance-search-tab at-home3 searchcomponent default-box-shadow1 bgc-white bgct-sm bdrn-sm p5 p0-md bdrs4 position-relative zi9 animate-up-3">
                   
                   <div className="row">
@@ -96,7 +96,7 @@ function SimcardDialer() {
                           className="ud-btn btn-home3 w-100-sm"
                           type="button"
                         >
-                          Request callback
+                          Search
                         </button>
                       </div>
                     </div>
@@ -106,4 +106,4 @@ function SimcardDialer() {
   )
 }
 
-export default SimcardDialer
+export default ScholarshipDialer

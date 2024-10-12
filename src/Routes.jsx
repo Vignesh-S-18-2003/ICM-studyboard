@@ -131,15 +131,23 @@ import LostPassword from "./pages/ICM/Lostpassword";
 import ScholarshipUSA from "./pages/ICM/ScholarshipUSA";
 import TermsAndConditions from "./pages/ICM/Terms&Conditions";
 import ScholarshipCanada from "./pages/ICM/ScholarshipCanada";
-import ScholarshipIreland from "./pages/ICM/ScholarshipIreland";
+import ScholarshipDubai from "./pages/ICM/ScholarshipDubai";
+import ScholarshipUK from "./pages/ICM/ScholarshipUK";
+import ScholarshipNewZealand from "./pages/ICM/ScholarshipNewzealand";
+import ScholarshipSwizerLand from "./pages/ICM/ScholarshipSwizerLand";
 import ScholarshipGermany from "./pages/ICM/ScholarshipGermany";
+import ScholarshipIreland from "./pages/ICM/ScholarshipIreland";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
-        <Route path="ScholarshipGermany" element={<ScholarshipGermany />} />
         <Route path="ScholarshipIreland" element={<ScholarshipIreland />} />
+        <Route path="ScholarshipGermany" element={<ScholarshipGermany />} />
+        <Route path="ScholarshipSwitzerLand" element={<ScholarshipSwizerLand />} />
+        <Route path="ScholarshipNewZealand" element={<ScholarshipNewZealand />} />
+        <Route path="ScholarshipDubai" element={<ScholarshipDubai />} />
+        <Route path="ScholarshipUk" element={<ScholarshipUK />} />
         <Route path="ScholarshipCanada" element={<ScholarshipCanada />} />
         <Route path="ScholarshipUSA" element={<ScholarshipUSA />} />
         <Route path="LostPassword" element={<LostPassword />} />

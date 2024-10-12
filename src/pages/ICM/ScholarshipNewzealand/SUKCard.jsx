@@ -11,8 +11,14 @@ export default function SUKCard({ data }) {
           <span className="online" />
         </div>
         <div className="details">
-          <h5 className="title mb-1">{data.name}</h5>
-          <p className="mb-0">{data.skill}</p>
+          <h5 className="title mb-1">
+            {/* {data.name} */}
+            GREAT British Scholarship 
+            </h5>
+          <p className="mb-0">
+            {/* {data.skill} */}
+            Cranfield University
+            </p>
           <div className="review">
           
          
@@ -20,7 +26,7 @@ export default function SUKCard({ data }) {
           <div className="fl-meta  align-items-center justify-content-between">
             <a className="meta fw500 text-start">
               Location :
-              <span className="fz14 fw400"> UK</span>
+              <span className="fz14 fw400"> United Kingdom</span>
             </a><br />
             <a className="meta fw500 text-start">
               Education :
@@ -28,7 +34,10 @@ export default function SUKCard({ data }) {
             </a><br />
             <a className="meta fw500 text-start">
               Students :
-              <span className="fz14 fw400"> {data.rating}</span>
+              <span className="fz14 fw400"> 
+                {/* {data.rating} */}
+                10,00,000
+                </span>
             </a><br />
           </div>
           <div className="d-grid mt15">

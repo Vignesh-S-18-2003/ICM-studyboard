@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-export default function SUk() {
+export default function SNewZealand() {
   return (
     <section className="hero-home13 at-home17 overflow-hidden">
       <div className="container">
@@ -10,7 +10,7 @@ export default function SUk() {
             <div className="home17-hero-content">
               <h1 className="banner-title animate-up-1 mb25">
               Succeed with <br className="d-none d-xl-block" />
-              UK Scholarships
+              NewZealand Scholarships
 
               </h1>
               <p className="text-white text animate-up-2">

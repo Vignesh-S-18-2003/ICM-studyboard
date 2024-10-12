@@ -4,7 +4,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper";
 import { useEffect, useState } from "react";
-import { product1 } from "@/data/product";
+import { product1, product2 } from "@/data/product";
 import PopularServiceCardx from "@/components/card/Popularservicecardx";
 
 const categories = [
@@ -125,7 +125,7 @@ export default function ScholarshipArticles() {
                       },
                     }}
                   >
-                    {product1
+                    {product2
                       .slice(getPosition.min, getPosition.max)
                       .map((item, index) => (
                         <SwiperSlide key={index}>

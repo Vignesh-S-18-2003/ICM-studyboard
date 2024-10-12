@@ -7,7 +7,7 @@ import { freelancer1, hightedRated1 } from "@/data/product";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HeighestRetedCard2 from "@/components/card/HighestRatedCard2";
-import SAustraliaCard from "./SDubaiCard";
+import SSwitzerLandCard from "./SSwizCard";
 import { Scholarshipfreelancer } from "./ScholarshipFreelancer";
 
 export default function ScholarshipUniversities() {
@@ -23,7 +23,7 @@ export default function ScholarshipUniversities() {
           <div className="row align-items-center wow fadeInUp">
             <div className="col-lg-9">
               <div className="main-title">
-                <h2 className="title">Top Universites in Dubai!</h2>
+                <h2 className="title">Top Universites in SwitzerLand!</h2>
                 
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function ScholarshipUniversities() {
                   >
                     {Scholarshipfreelancer.map((item, index) => (
                       <SwiperSlide key={index}>
-                        <SAustraliaCard data={item} />
+                        <SSwitzerLandCard data={item} />
                       </SwiperSlide>
                     ))}
                   </Swiper>

@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function StudentEssentials() {
   const { pathname } = useLocation();
@@ -30,7 +30,9 @@ export default function StudentEssentials() {
                   <div className="list-one d-flex align-items-start mb30">
                     <span className="list-icon flex-shrink-0 flaticon-badge" />
                     <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Money Transfer</h4>
+                      <h4 className="mb-1">
+                        <Link to="/forex">
+                          Money Transfer</Link></h4>
                       {/* <p className="text mb-0 fz15">
                         Check any pro’s work samples, client reviews, and
                         identity <br className="d-none d-lg-block" />{" "}
@@ -41,7 +43,7 @@ export default function StudentEssentials() {
                   <div className="list-one d-flex align-items-start mb30">
                     <span className="list-icon flex-shrink-0 flaticon-money" />
                     <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Loan Assistance</h4>
+                      <h4 className="mb-1"><Link to="/EducationalLoan">Loan Assistance</Link></h4>
                       {/* <p className="text mb-0 fz15">
                         Interview potential fits for your job, negotiate rates,
                         and only pay <br className="d-none d-lg-block" /> for
@@ -52,7 +54,7 @@ export default function StudentEssentials() {
                   <div className="list-one d-flex align-items-start mb30">
                     <span className="list-icon flex-shrink-0 flaticon-security" />
                     <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Accomodations</h4>
+                      <h4 className="mb-1"><Link to="/StudentAccomodation">Accomodations</Link></h4>
                       {/* <p className="text mb-0 fz15">
                         Focus on your work knowing we help protect your data and
                         privacy. We’re here with 24/7 support if you need it.
@@ -62,7 +64,7 @@ export default function StudentEssentials() {
                   <div className="list-one d-flex align-items-start mb30">
                     <span className="list-icon flex-shrink-0 flaticon-badge" />
                     <div className="list-content flex-grow-1 ml20">
-                      <h4 className="mb-1">Sim Cards</h4>
+                      <h4 className="mb-1"><Link to="/simcard"> Sim Cards </Link></h4>
                       {/* <p className="text mb-0 fz15">
                         Focus on your work knowing we help protect your data and
                         privacy. We’re here with 24/7 support if you need it.
