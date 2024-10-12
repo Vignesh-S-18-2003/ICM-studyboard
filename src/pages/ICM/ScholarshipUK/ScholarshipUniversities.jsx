@@ -7,7 +7,7 @@ import { freelancer1, hightedRated1 } from "@/data/product";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HeighestRetedCard2 from "@/components/card/HighestRatedCard2";
-import SAustraliaCard from "./SAustraliaCard";
+import SAustraliaCard from "./ScUKCard";
 import { Scholarshipfreelancer } from "./ScholarshipFreelancer";
 
 export default function ScholarshipUniversities() {
