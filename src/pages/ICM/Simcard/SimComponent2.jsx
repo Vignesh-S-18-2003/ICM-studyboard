@@ -2,7 +2,7 @@ import React from 'react';
 
 const SimComponent2 = () => {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5 wow fadeInUp">
         <h1>Canada</h1>
       <div className="row align-items-center">
         {/* Left Side - Image */}
@@ -15,9 +15,9 @@ const SimComponent2 = () => {
         </div>
 
         {/* Right Side - Content List */}
-        <div className="col-md-6">
-          <h3 className="mb-4">SIM Card Features</h3>
-          <ul className="list-unstyled">
+        <div className="col-md-6 ">
+          <h3 className="mb-4 wow fadeInUp">SIM Card Features</h3>
+          <ul className="list-unstyled wow fadeInUp">
             <li className="mb-2">✓ UNLIMITED Canada-wide Calling</li>
             <li className="mb-2">✓ UNLIMITED worldwide text messaging from Canada</li>
             <li className="mb-2">✓ 1000 long-distance calling minutes from Canada per month</li>

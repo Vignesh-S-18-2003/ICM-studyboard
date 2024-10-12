@@ -4,23 +4,23 @@ const ScholarshipTable = () => {
   const scholarships = [
     {
       id: 1,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'UKn Government Research and Training Program',
+      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years. Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 2,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'UKn Government Research and Training Program',
+      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 3,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
+      name: 'UKn Government Research and Training Program',
+      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly',
     },
     {
       id: 4,
-      name: 'Australian Government Research and Training Program',
-      description: 'Funded by the Australian Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
+      name: 'UKn Government Research and Training Program',
+      description: 'Funded by the UKn Government, it covers a student’s tuition fee and health insurance for up to three years.Supports a student’s (local and international) Research Doctorate and Research master’s degree. Value is $34,000 per annum made fortnightly.',
     },
     {
       id: 5,
@@ -31,8 +31,8 @@ const ScholarshipTable = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">Scholarship Program </h2>
-      <div className="table-responsive">
+      <h2 className="text-center mb-4 wow fadeInUp">Scholarship Program </h2>
+      <div className="table-responsive wow fadeInUp">
         <table className="table table-bordered table-striped">
           <thead className="bg-primary text-white">
             <tr>

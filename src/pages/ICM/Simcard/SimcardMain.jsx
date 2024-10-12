@@ -10,11 +10,11 @@ export default function SimcardMain() {
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6 col-xl-6 mb30-md">
             <div className="home11-hero-content">
-              <h2 className="title animate-up-2">
+              <h2 className="title animate-up-2 wow fadeInUp">
               SIM Card
               </h2>
               <br />
-              <h4>Enjoy seamless communication and affordable plans to keep in touch!</h4>
+              <h4 className="wow fadeInUp">Enjoy seamless communication and affordable plans to keep in touch!</h4>
               <p className="text animate-up-3">
               Stay connected from day one with an international SIM card, specially designed for students studying abroad. Enjoy seamless communication and affordable plans to keep in touch with family and friends wherever you go.
               </p>

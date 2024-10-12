@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function SAustraliaCard({ data }) {
+export default function SUKCard({ data }) {
   return (
     <>
       <div className="freelancer-style1 text-center bdr1 hover-box-shadow mb60 bdrs16">
@@ -20,7 +20,7 @@ export default function SAustraliaCard({ data }) {
           <div className="fl-meta  align-items-center justify-content-between">
             <a className="meta fw500 text-start">
               Location :
-              <span className="fz14 fw400"> Australia</span>
+              <span className="fz14 fw400"> UK</span>
             </a><br />
             <a className="meta fw500 text-start">
               Education :

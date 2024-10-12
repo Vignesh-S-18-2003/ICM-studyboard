@@ -3,8 +3,8 @@ export default function ScholarshipStudy() {
       <>
       <div className="col-lg-9 mx-auto pt90">
               <div className="main-title text-center mb30">
-                <h1 >Study with Australia!</h1>
-                <h5 className="paragraph">Follow the steps below to start your Australian education journey
+                <h1 >Study with UK!</h1>
+                <h5 className="paragraph">Follow the steps below to start your UKn education journey
                 </h5>
               </div>
             </div>
@@ -24,7 +24,7 @@ export default function ScholarshipStudy() {
                 <div className="cta-style5">
                   <h2 className="cta-title mb10">Choose Your Study</h2>
                   <p className="cta-text mb40">
-                  Australian education providers offer courses across a wide range of study areas. Whatever your career or learning goal, there’s a course to help you get there.
+                  UKn education providers offer courses across a wide range of study areas. Whatever your career or learning goal, there’s a course to help you get there.
 Agriculture and agritech
 Architecture, construction and planning
 Business, management and entrepreneurship
@@ -132,7 +132,7 @@ Business, management and entrepreneurship
                 <div className="cta-style5">
                   <h2 className="cta-title mb15">Plan Your Budget</h2>
                   <p className="cta-text mb60">
-                  Plan your budget effectively to study in Australia with our comprehensive guidance. We help you navigate tuition fees, living expenses, and available scholarships to ensure a smooth financial journey. 
+                  Plan your budget effectively to study in UK with our comprehensive guidance. We help you navigate tuition fees, living expenses, and available scholarships to ensure a smooth financial journey. 
                   </p>
                   <div className="app-widget at-home6">
                     <div className="row d-flex align-items-center">

@@ -12,18 +12,22 @@ import ScholarshipStudy from './ScholarshipStudy'
 import ScholarshipUniversities from './ScholarshipUniversities'
 import ScholarshipTable from './ScholarshipTable'
 import ScholarshipAustraliaFact from './ScholarshipUkFact'
+import SUk from './SUKmain'
+import SUKCourse from './SUKCourse'
+import ScholarshipDubaiFact from './ScholarshipUkFact'
+import ScholarshipUKFact from './ScholarshipUkFact'
 
-function ScholarshipAustralia() {
+function ScholarshipUK() {
   return (
     <div>
         <Header17/>
-      <SAustralia/>
+      <SUk/>
       <ScholarshipSearch/>
-      <SAustraliaCourse/>
+      <SUKCourse/>
       <ScholarshipStudy/>
       <ScholarshipUniversities/>
       <ScholarshipTable/>
-      <ScholarshipAustraliaFact/>
+      <ScholarshipUKFact/>
       <ScholarshipAlumni/>
       <ScholarshipDialer/>
       <ScholarshipFaqs/>
@@ -33,4 +37,4 @@ function ScholarshipAustralia() {
   )
 }
 
-export default ScholarshipAustralia
+export default ScholarshipUK

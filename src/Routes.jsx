@@ -131,11 +131,15 @@ import LostPassword from "./pages/ICM/Lostpassword";
 import ScholarshipUSA from "./pages/ICM/ScholarshipUSA";
 import TermsAndConditions from "./pages/ICM/Terms&Conditions";
 import ScholarshipCanada from "./pages/ICM/ScholarshipCanada";
+import ScholarshipDubai from "./pages/ICM/ScholarshipDubai";
+import ScholarshipUK from "./pages/ICM/ScholarshipUK";
 export default function RoutesComponent() {
   return (
     <>
       <Routes>
         <Route path="/">
+        <Route path="ScholarshipDubai" element={<ScholarshipDubai />} />
+        <Route path="ScholarshipUk" element={<ScholarshipUK />} />
         <Route path="ScholarshipCanada" element={<ScholarshipCanada />} />
         <Route path="ScholarshipUSA" element={<ScholarshipUSA />} />
         <Route path="LostPassword" element={<LostPassword />} />

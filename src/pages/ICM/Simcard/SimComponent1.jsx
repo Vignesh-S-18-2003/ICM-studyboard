@@ -16,8 +16,8 @@ const SimComponent1 = () => {
 
         {/* Right Side - Content List */}
         <div className="col-md-6">
-          <h3 className="mb-4">SIM Card Features</h3>
-          <ul className="list-unstyled">
+          <h3 className="mb-4 wow fadeInUp">SIM Card Features</h3>
+          <ul className="list-unstyled wow fadeInUp">
             <li className="mb-2">✓ UNLIMITED Australia-wide Calling</li>
             <li className="mb-2">✓ UNLIMITED worldwide text messaging from Australia</li>
             <li className="mb-2">✓ 1000 long-distance calling minutes from Australia per month</li>
