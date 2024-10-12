@@ -44,78 +44,79 @@ const menus = [
   {
     id: 3,
     name: "Exams",
-    children: [
-      {
-        id: 1,
-        name: "Dashboard",
-        children: [
-          { id: 1, name: "Dashboard", path: "/dashboard" },
-          { id: 2, name: "Proposal", path: "/proposal" },
-          { id: 3, name: "Saved", path: "/saved" },
-          { id: 4, name: "Message", path: "/message" },
-          { id: 5, name: "Reviews", path: "/reviews" },
-          { id: 6, name: "Invoice", path: "/invoice" },
-          { id: 7, name: "Payouts", path: "/payouts" },
-          { id: 8, name: "Statement", path: "/statements" },
-          { id: 9, name: "Manage Service", path: "/manage-services" },
-          { id: 10, name: "Add Services", path: "/add-services" },
-          { id: 11, name: "Manage Jobs", path: "/manage-jobs" },
-          {
-            id: 12,
-            name: "Manage Project",
-            path: "/manage-projects",
-          },
-          {
-            id: 13,
-            name: "Create Project",
-            path: "/create-projects",
-          },
-          { id: 14, name: "My Profile", path: "/my-profile" },
-        ],
-      },
-      {
-        id: 2,
-        name: "Employee",
-        children: [
-          { id: 1, name: "Employee V1", path: "/employee-1" },
-          { id: 2, name: "Employee V2", path: "/employee-2" },
-          {
-            id: 3,
-            name: "Employee Single",
-            path: "/employee-single",
-          },
-        ],
-      },
-      {
-        id: 3,
-        name: "Freelancer",
-        children: [
-          { id: 1, name: "Freelancer V1", path: "/freelancer-1" },
-          { id: 2, name: "Freelancer V2", path: "/freelancer-2" },
-          { id: 3, name: "Freelancer V3", path: "/freelancer-3" },
-          {
-            id: 4,
-            name: "Freelancer Single v1",
-            path: "/freelancer-single",
-          },
-          {
-            id: 5,
-            name: "Freelancer Single v2",
-            path: "/freelancer-single-v2",
-          },
-          {
-            id: 6,
-            name: "Freelancer Single v3",
-            path: "/freelancer-single-v3",
-          },
-        ],
-      },
-      {
-        id: 4,
-        name: "Become Seller",
-        path: "/become-seller",
-      },
-    ],
+    path: "/examielts"
+    // children: [
+    //   {
+    //     id: 1,
+    //     name: "Dashboard",
+    //     children: [
+    //       { id: 1, name: "Dashboard", path: "/dashboard" },
+    //       { id: 2, name: "Proposal", path: "/proposal" },
+    //       { id: 3, name: "Saved", path: "/saved" },
+    //       { id: 4, name: "Message", path: "/message" },
+    //       { id: 5, name: "Reviews", path: "/reviews" },
+    //       { id: 6, name: "Invoice", path: "/invoice" },
+    //       { id: 7, name: "Payouts", path: "/payouts" },
+    //       { id: 8, name: "Statement", path: "/statements" },
+    //       { id: 9, name: "Manage Service", path: "/manage-services" },
+    //       { id: 10, name: "Add Services", path: "/add-services" },
+    //       { id: 11, name: "Manage Jobs", path: "/manage-jobs" },
+    //       {
+    //         id: 12,
+    //         name: "Manage Project",
+    //         path: "/manage-projects",
+    //       },
+    //       {
+    //         id: 13,
+    //         name: "Create Project",
+    //         path: "/create-projects",
+    //       },
+    //       { id: 14, name: "My Profile", path: "/my-profile" },
+    //     ],
+    //   },
+    //   {
+    //     id: 2,
+    //     name: "Employee",
+    //     children: [
+    //       { id: 1, name: "Employee V1", path: "/employee-1" },
+    //       { id: 2, name: "Employee V2", path: "/employee-2" },
+    //       {
+    //         id: 3,
+    //         name: "Employee Single",
+    //         path: "/employee-single",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "Freelancer",
+    //     children: [
+    //       { id: 1, name: "Freelancer V1", path: "/freelancer-1" },
+    //       { id: 2, name: "Freelancer V2", path: "/freelancer-2" },
+    //       { id: 3, name: "Freelancer V3", path: "/freelancer-3" },
+    //       {
+    //         id: 4,
+    //         name: "Freelancer Single v1",
+    //         path: "/freelancer-single",
+    //       },
+    //       {
+    //         id: 5,
+    //         name: "Freelancer Single v2",
+    //         path: "/freelancer-single-v2",
+    //       },
+    //       {
+    //         id: 6,
+    //         name: "Freelancer Single v3",
+    //         path: "/freelancer-single-v3",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 4,
+    //     name: "Become Seller",
+    //     path: "/become-seller",
+    //   },
+    // ],
   },
   {
     id: 4,
@@ -136,19 +137,16 @@ const menus = [
     id: 5,
     name: "Our Services",
     children: [
-      { id: 1, name: "Australia", path: "/destination" },
-      { id: 2, name: "USA", path: "/USA" },
-      { id: 3, name: "UK", path: "/UK" },
-      { id: 4, name: "Canada", path: "/Canada" },
-      { id: 5, name: "Dubai", path: "/Dubai" },
-      { id: 6, name: "Ireland", path: "/Ireland" },
-      { id: 7, name: "NewZealand", path: "/NewZealand" },
-      { id: 8, name: "Switzerland", path: "/Switzerland" },
-      { id: 9, name: "Germany", path: "/Germany" },
+      { id: 1, name: "Visa Immigration", path: "/VisaImmigration" },
+      { id: 2, name: "Test Preparation", path: "/TestPreparation" },
+      { id: 3, name: "University Selection", path: "/UniversitySelection" },
+      { id: 4, name: "Admission Assistance", path: "/admissionassistance" },
+      { id: 5, name: "Predeparture Support", path: "/PredepartureSupport" },
+      { id: 6, name: "Post Arrival", path: "/postArrival" },
     ],
   },
   {
-    id: 2,
+    id: 6,
     name: "Study Abroad Steps",
     children: [
       { id: 1, name: "Step 1", path: "/StudyAbroad1" },
